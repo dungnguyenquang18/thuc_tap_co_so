@@ -5,7 +5,7 @@ from torch_geometric.data import Data
 import random
 from rapidfuzz import process  # For fuzzy matching
 from collections import deque
-from graph_rag_for_review_film_chatbot.src.gae.model import GAE
+from thuc_tap_co_so.src.gae.model import GAE
 import google.generativeai as genai
 import os
 from dotenv import load_dotenv
