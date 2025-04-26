@@ -6,6 +6,7 @@ app = Flask(__name__)
 retrieve = Retrieve()
 llm = LLM()
 
+
 @app.route('/api/chatbot', methods=['POST'])
 def handle_query():
     data = request.get_json()
@@ -15,7 +16,7 @@ def handle_query():
         return jsonify({'error': 'No query provided'}), 400
 
     information = retrieve.retrieve_infomation(query)
-    
+
     answer = llm.answer(f"hãy trả lời câu hỏi sau:({query}) từ dữ liệu sau:\n{information}")
     return jsonify(answer)
 
