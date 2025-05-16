@@ -3,10 +3,7 @@ import torch
 import torch.nn.functional as F
 from torch_geometric.data import Data
 import random
-from rapidfuzz import process  # For fuzzy matching
-from collections import deque
-from thuc_tap_co_so.src.gae.model import GAE
-import google.generativeai as genai
+from thuc_tap_co_so.src.ai_model.gae.model import GAE
 import os
 from dotenv import load_dotenv
 load_dotenv()

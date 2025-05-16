@@ -2,14 +2,12 @@ from neo4j import GraphDatabase
 import torch
 import torch.nn.functional as F
 from torch_geometric.data import Data
-import random
 from rapidfuzz import process  # For fuzzy matching
 from collections import deque
-from gae import GAE
-import google.generativeai as genai
+from thuc_tap_co_so.src.ai_model.gae import GAE
 import os
 from dotenv import load_dotenv
-from llm import LLM
+from thuc_tap_co_so.src.ai_model.llm import LLM
 
 load_dotenv()
 
@@ -120,10 +118,10 @@ class Retrieve():
 
         model = GAE(input_dim, hidden_dim, embedding_dim)
 
-        if not os.path.exists('gae2.torch'):
-            raise FileNotFoundError("Model file 'gae.torch' not found. Please train and save the GAE model.")
+        # if not os.path.exists('gae2.torch'):
+        #     raise FileNotFoundError("Model file 'gae.torch' not found. Please train and save the GAE model.")
 
-        model.load_state_dict(torch.load('gae2.torch'))
+        model.load_state_dict(torch.load('D:/3Y2S/ttcs2/thuc_tap_co_so/src/ai_model/gae2.torch'))
         model.eval()
 
         with torch.no_grad():
@@ -188,6 +186,6 @@ class Retrieve():
 
 if __name__ == '__main__':
     retrieve = Retrieve()
-    query = 'hãy nêu điều 2 điều 3 luật đất đai?'
+    query = 'cho tôi biết về hành vi vi phạm quy định về đấu thầu?'
     info = retrieve.retrieve_infomation(query)
     print(info)
