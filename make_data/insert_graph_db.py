@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 #connect to db
-from langchain_community.graphs import Neo4jGraph
+from langchain_neo4j.graphs.neo4j_graph import Neo4jGraph
 from dotenv import load_dotenv
 import os
 import google.generativeai as genai
@@ -12,7 +12,7 @@ NEO4J_URI = os.getenv("NEO4J_URI")
 NEO4J_USERNAME = os.getenv("NEO4J_USERNAME")
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
 NEO4J_DATABASE = os.getenv("NEO4J_DATABASE")
-
+# print(NEO4J_URI)
 class InsertIntoGraph():
     def __init__(self):
 
@@ -26,7 +26,7 @@ class InsertIntoGraph():
         except:
             print('lỗi các biến trong môi trường hoặc chưa chạy db')
         
-    def insert_by_using_mongodb(self):
+    def insert_by_using_mongodb_content(self):
         #set up collection
         try:
             uri = os.getenv('URI')
@@ -54,7 +54,25 @@ class InsertIntoGraph():
                         result = extract_entities_and_relationships(thong_tin_khoan)
                         _, relationship_list = process_llm_out(result)
                         add_relationships_to_neo4j(self.kg, relationship_list)
-        
+
+    def insert_by_using_mongodb_paper(self):
+        try:
+            uri = os.getenv('URI')
+            client = MongoClient(uri)
+            db = client[os.getenv('DB_NAME')]
+            collection = db[os.getenv('COLLECTION_NAME')]
+        except:
+            print('lỗi do chưa chạy db')
+
+        data = list(collection.find())
+        for i,paper in enumerate(data):
+            content = paper['content']
+            title = paper['title']
+            input = 'tiêu đề bài báo: ' + title + '\nnội dung:\n ' + content
+            api_key = [os.getenv('API_KEY_1'),os.getenv('API_KEY_2'),os.getenv('API_KEY_3')]
+            result = extract_entities_and_relationships(input, api_key[i%3])
+            _, relationship_list = process_llm_out(result)
+            add_relationships_to_neo4j(self.kg, relationship_list)
                             
     def insert_by_using_local_file(self):
         pass
@@ -62,11 +80,11 @@ class InsertIntoGraph():
         
 
 
-def extract_entities_and_relationships(text):
+def extract_entities_and_relationships(text, API_KEY):
     # text = sample
 
     prompt = (
-        f"Trích xuất các thực thể (nút) và mối quan hệ (cạnh) từ văn bản dưới đây."
+        f"Trích xuất các thực thể (nút) và mối quan hệ (cạnh) từ các baài báo luật pháp dưới đây."
         f"Các thực thể và mối quan hệ PHẢI được viết bằng tiếng Việt.\n"
         f"Tuân theo định dạng sau:\n\n"
         f"Thực thể:\n"
@@ -76,6 +94,27 @@ def extract_entities_and_relationships(text):
         f"Văn bản:\n\"{text}\"\n\n"
         f"Đầu ra:\nThực thể:\n- {{Thực thể}}: {{Loại}}\n...\n\n"
         f"Mối quan hệ:\n- ({{Thực thể1}}, {{Loại quan hệ}}, {{Thực thể2}})\n"
+        f"các thực thể và các mối quan phải được tạo ra bằng việc đặt câu hỏi liên quan đến luật pháp:\n"
+        f"1. Về nguồn và tính pháp lý"
+        f"Bài báo có dẫn nguồn chính thức hay văn bản pháp luật cụ thể không?\n"
+        f"Đây là ý kiến bình luận của cá nhân, cơ quan báo chí, hay trích dẫn từ cơ quan nhà nước có thẩm quyền?\n"
+        f"Văn bản pháp luật được đề cập có còn hiệu lực không (có bị thay thế, sửa đổi chưa)?\n"
+        f"2. Về nội dung pháp lý\n"
+        f"Quy định pháp luật nào đang được nói đến (luật, nghị định, thông tư...)?\n"
+        f"Quy định đó áp dụng trong trường hợp nào, đối tượng nào?\n"
+        f"Có điều khoản chuyển tiếp hoặc ngoại lệ nào không?\n"
+        f"Có án lệ hoặc vụ việc cụ thể nào làm tiền lệ được nhắc tới không?\n"
+        f"3. Về đối tượng và hoàn cảnh áp dụng\n"
+        f"Quy định này ảnh hưởng đến ai? (cá nhân, doanh nghiệp, tổ chức...)\n"
+        f"Trong hoàn cảnh nào quy định này được kích hoạt hay thực thi?\n"
+        f"Có yếu tố tranh chấp, kiện tụng hay xử phạt nào không?\n"
+        f"4. Về quyền và nghĩa vụ\n"
+        f"Quyền lợi của các bên liên quan được bảo đảm như thế nào?\n"
+        f"Có nghĩa vụ nào phát sinh từ quy định này không?\n"
+        f"Có chế tài gì nếu vi phạm?\n"
+        f"6. Về tác động thực tiễn:\n"
+        f"Quy định này sẽ ảnh hưởng như thế nào đến đời sống xã hội hoặc hoạt động kinh doanh?\n"
+        f"Có phản ứng hoặc tranh luận gì từ xã hội, giới luật sư, chuyên gia không?"
     )
 
 
@@ -83,13 +122,13 @@ def extract_entities_and_relationships(text):
 
 
     # Thay thế bằng API Key của bạn
-    API_KEY = os.getenv('API_KEY')
+
 
     # Cấu hình API Key
     genai.configure(api_key=API_KEY)
 
     # Khởi tạo mô hình Gemini Pro
-    model = genai.GenerativeModel("gemini-2.0-pro")
+    model = genai.GenerativeModel("gemini-2.0-flash")
     for _ in range(5):  # Gửi 5 request
         try:
             response = model.generate_content(prompt)
@@ -102,9 +141,21 @@ def extract_entities_and_relationships(text):
     # In kết quả
     return response.text
 
-def process_llm_out( result):
-    import re
+import re
+from unidecode import unidecode
 
+def sanitize_relation(relation):
+    # Bỏ dấu tiếng Việt
+    relation = unidecode(relation)
+    # Đổi sang chữ in hoa
+    relation = relation.upper()
+    # Thay các ký tự không phải chữ/số bằng dấu gạch dưới
+    relation = re.sub(r'[^A-Z0-9]', '_', relation)
+    # Bỏ các dấu gạch dưới thừa
+    relation = re.sub(r'_+', '_', relation).strip('_')
+    return relation
+
+def process_llm_out(result):
     # OpenAI response as a string
     response = result
 
@@ -118,7 +169,12 @@ def process_llm_out( result):
     # Extract relationships
     relationship_pattern = r"- \(([^,]+), ([^,]+), ([^)]+)\)"
     relationships = re.findall(relationship_pattern, response)
-    relationship_list = [(subject.strip(), relation.strip().replace(" ", "_").upper(), object_.strip()) for subject, relation, object_ in relationships]
+    relationship_list = []
+    for subject, relation, object_ in relationships:
+        subject = subject.strip()
+        relation_clean = sanitize_relation(relation.strip())
+        object_ = object_.strip()
+        relationship_list.append((subject, relation_clean, object_))
 
     # Output entities and relationships
     print("Entities:")
@@ -128,7 +184,9 @@ def process_llm_out( result):
     print("\nRelationships:")
     for subject, relation, object_ in relationship_list:
         print(f"({subject}, {relation}, {object_})")
+
     return entity_list, relationship_list
+
 
 def add_relationships_to_neo4j(kg, relationships):
     """
@@ -150,4 +208,4 @@ def add_relationships_to_neo4j(kg, relationships):
 
 if __name__ == '__main__':
     insert = InsertIntoGraph()
-    insert.insert_by_using_local_file()
+    insert.insert_by_using_mongodb_paper()

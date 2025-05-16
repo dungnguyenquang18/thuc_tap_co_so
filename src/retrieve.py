@@ -99,19 +99,13 @@ def find_closest_entities(entities, node_mapping):
     return results
 
 
-def loss_function(reconstructed, edge_index):
-    # Binary cross-entropy loss for adjacency reconstruction
-    # Một tensor toàn giá trị 1 với chiều dài bằng số lượng edges (M) trong đồ thị.
-    target = torch.ones(edge_index.size(1))  # All edges exist
-    # Sự khác biệt giữa logits dự đoán (reconstructed) và các giá trị thực (target).
-    return F.binary_cross_entropy_with_logits(reconstructed, target)
 
 
 class Retrieve():
     def __init__(self):
         pass
 
-    def retrieve_infomation(self, query, k=20):
+    def retrieve_infomation(self, query, k=5):
         node_mapping, edge_list, unique_relationship_types = get_graph_data()
         edge_index = torch.tensor([[e[0], e[1]] for e in edge_list], dtype=torch.long).t().contiguous()
 
@@ -126,10 +120,10 @@ class Retrieve():
 
         model = GAE(input_dim, hidden_dim, embedding_dim)
 
-        if not os.path.exists('gae.torch'):
+        if not os.path.exists('gae2.torch'):
             raise FileNotFoundError("Model file 'gae.torch' not found. Please train and save the GAE model.")
 
-        model.load_state_dict(torch.load('gae.torch'))
+        model.load_state_dict(torch.load('gae2.torch'))
         model.eval()
 
         with torch.no_grad():

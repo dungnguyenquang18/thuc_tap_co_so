@@ -98,27 +98,75 @@ class MakeData():
 
         except:
             print('ko truy cập đc')
-
-    def store_at_local(self, link:str):
-        self.__get_content(link)
-        directory_path = os.getenv('DIRECTORY_PATH')
-        self.file_path = f'{directory_path}{self.file_name}.json'
         
-        with open(self.file_path, "w", encoding="utf-8") as f:
-            json.dump(self.luat, f, ensure_ascii=False, indent=4)
-        print('đã lưu xog')
-    
-    def insert_into_db(self, link):
-        self.__get_content(link)
+    def __get_content_paper(self, link:str):
         try:
-            uri = os.getenv('URI')
-            client = MongoClient(uri)
-            db = client[os.getenv('DB_NAME')]
-            collection = db[os.getenv('COLLECTION_NAME')]
+            self.content_papers_json = []
+            response = requests.get(link)
+            links_paper = BeautifulSoup(response.content, 'html.parser').find_all('h3', 'title-news')
+
+            for link_paper in links_paper:
+                content_paper_json = {}
+                link_paper = link_paper.find('a').get('href')
+                response = requests.get(link_paper)
+                soup = BeautifulSoup(response.content, 'html.parser').find('div', 'sidebar-1')
+                title = soup.find('h1').get_text()
+                p_tags = soup.find_all("p")
+                
+                content = ""
+                for p in p_tags:
+                    content += p.get_text(strip=True) + "\n"
+                content_paper_json["title"] = title
+                content_paper_json["content"] = content
+                
+                self.content_papers_json.append(content_paper_json)
+            self.file_name = "law_papers_content"
         except:
-            print('lỗi do chưa chạy db')
-        collection.insert_one(self.luat)
-        print('xong')
+            print('ko truy cập đc')
+            
+
+    def store_at_local(self, link:str, get_method = None):
+        if get_method == 'paper':
+            self.__get_content_paper(link)
+            directory_path = os.getenv('DIRECTORY_PATH')
+            self.file_path = f'{directory_path}{self.file_name}.json'
+            with open(self.file_path, "w", encoding="utf-8") as f:
+                json.dump(self.content_papers_json, f, ensure_ascii=False, indent=4)
+            print('đã lưu xog')
+
+        else:
+            self.__get_content(link)
+            directory_path = os.getenv('DIRECTORY_PATH')
+            self.file_path = f'{directory_path}{self.file_name}.json'
+
+            with open(self.file_path, "w", encoding="utf-8") as f:
+                json.dump(self.luat, f, ensure_ascii=False, indent=4)
+            print('đã lưu xog')
+
+    
+    def insert_into_db(self, link , get_method = None):
+        if get_method == 'paper':
+            self.__get_content_paper(link)
+            try:
+                uri = os.getenv('URI')
+                client = MongoClient(uri)
+                db = client[os.getenv('DB_NAME')]
+                collection = db[os.getenv('COLLECTION_NAME')]
+            except:
+                print('lỗi do chưa chạy db')
+            collection.insert_many(self.content_papers_json)
+            print('xong')
+        else:
+            self.__get_content(link)
+            try:
+                uri = os.getenv('URI')
+                client = MongoClient(uri)
+                db = client[os.getenv('DB_NAME')]
+                collection = db[os.getenv('COLLECTION_NAME')]
+            except:
+                print('lỗi do chưa chạy db')
+            collection.insert_one(self.luat)
+            print('xong')
         
     
         
@@ -126,4 +174,4 @@ class MakeData():
     
 if __name__ == '__main__':
     makedata = MakeData()
-    makedata.store_at_local('https://thuvienphapluat.vn/van-ban/Giao-thong-Van-tai/Luat-trat-tu-an-toan-giao-thong-duong-bo-2024-so-36-2024-QH15-444251.aspx')
+    makedata.insert_into_db('https://vnexpress.net/phap-luat-p1', get_method='paper')

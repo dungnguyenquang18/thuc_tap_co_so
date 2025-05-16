@@ -117,6 +117,6 @@ if __name__ == '__main__':
         print(f'Epoch {epoch + 1}, Train Loss: {train_loss.item()}, Validation Loss: {val_loss.item()}')
 
     # Lưu trạng thái mô hình
-    torch.save(model.state_dict(), "gae.torch")
+    torch.save(model.state_dict(), "gae2.torch")
     print("Mô hình đã được lưu!")
 
