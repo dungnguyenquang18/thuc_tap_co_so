@@ -24,9 +24,9 @@ if user_input:
     # Gửi đến API Flask
     try:
         res = requests.post(
-            "http://localhost:5001/api/chatbot",
+            "http://127.0.0.1:5001/api/chatbot",
             json={"query": user_input},
-            timeout=10
+            timeout=50
         )
         res.raise_for_status()
         data = res.json()
