@@ -135,10 +135,10 @@
 			
 			\vspace{10pt}
 			\fontsize{18pt}{17pt}\selectfont 
-			\textbf{BÀI TẬP LỚN MÔN} 
+			\textbf{BÀI CÁO KẾT THÚC HỌC PHÀN} 
 			
 			\vspace{7pt}
-			\textbf{NHẬP MÔN TRÍ TUỆ NHÂN TẠO}
+			\textbf{MÔN THỰC TẬP CƠ SỞ}
 		\end{center}
 		
 		\vspace{10pt}
@@ -148,21 +148,22 @@
 		\end{flushleft}
 		\begin{center}
 			\fontsize{18pt}{17pt}\selectfont 
-			\textbf{\textrm{XÂY DỰNG HỆ THỐNG AI HỖ TRỢ VIẾT CV}}
+			\textbf{\textrm{XÂY DỰNG HỆ THỐNG AI TƯ VẤN LUẬT PHÁP}}
 		\end{center}
 		
-		\vspace{15pt}
-		\begin{tabbing}
-			\fontsize{16pt}{20pt}\selectfont
-			\hspace{6cm} \= \hspace{5cm} \= \kill
-			\textbf{Giáo viên hướng dẫn:} \> \textbf{TS.NGUYỄN THỊ MAI TRANG} \>\\ [6pt]
-			\textbf{Nhóm học phần:} \> \textbf{14} \>\\ [6pt]
-            \textbf{Nhóm bài tập lớn}\> \textbf{19} \>\\ [6pt]
-			\textbf{Sinh viên:} \> \textbf{NGUYỄN QUANG DŨNG B22DCCN133} \>\\ [6pt]
-            \textbf{} \> \textbf{NGUYỄN DUY HIẾU B22DCCN313} \>\\ [6pt]
-            \textbf{} \> \textbf{BÙI MINH TÚ B22DCCN741} \>\\ [6pt]
-			
-		\end{tabbing}
+		\vspace{6pt}
+
+		\begin{adjustwidth}{2cm}{0cm}
+    \begin{tabbing}
+        \fontsize{16pt}{20pt}\selectfont
+        \hspace{6cm} \= \hspace{5cm} \= \kill
+        \textbf{Giáo viên hướng dẫn:} \> \textbf{ThS. BÙI VĂN KIÊN} \>\\ [6pt]
+        \textbf{Nhóm học phần:} \> \textbf{25} \>\\ [6pt]
+        \textbf{Sinh viên:} \> \textbf{NGUYỄN QUANG DŨNG} \>\\ [6pt]
+        \textbf{Mã sinh viên:} \> \textbf{B22DCCN133} \>\\ [6pt]
+    \end{tabbing}
+\end{adjustwidth}
+
 		
 		
 		\vspace{14pt}
@@ -184,21 +185,17 @@
 \clearpage
 
 % Danh mục hình vẽ
-\section*{DANH MỤC CÁC HÌNH VẼ}
-\begin{itemize}
-    \item Hình 1 - Tổng quan về cấu trúc GraphRAG và các công nghệ đi kèm theo thành phần \dotfill [số trang]
-    \item Hình 2 - So sánh RAG và GraphRAG \dotfill [số trang]
-    \item Hình 3 - Sơ đồ mô hình GAE \dotfill [số trang]
-    \item Hình 4 - Sơ đồ luồng dữ liệu của hệ thống hỏi đáp pháp luật \dotfill [số trang]
-\end{itemize}
-\clearpage
 
-% Danh mục bảng biểu
-\section*{DANH MỤC CÁC BẢNG BIỂU}
-\begin{itemize}
-    \item Bảng 1 - Giá trị loss trong quá trình huấn luyện GAE \dotfill [số trang]
-\end{itemize}
-\clearpage
+\renewcommand{\listfigurename}{Danh mục hình ảnh}
+\listoffigures
+\addcontentsline{toc}{section}{Danh mục hình ảnh}
+
+
+
+\renewcommand{\listtablename}{Danh mục bảng biểu}
+\listoftables
+\addcontentsline{toc}{section}{Danh mục bảng biểu}
+
 
 % Danh mục từ viết tắt
 \section*{DANH MỤC CÁC TỪ VIẾT TẮT}
@@ -206,6 +203,7 @@
 \centering
 \begin{tabular}{|p{2cm}|p{6cm}|p{6cm}|}
 \hline
+
 \textbf{Từ viết tắt} & \textbf{Thuật ngữ tiếng Anh/Giải thích} & \textbf{Thuật ngữ tiếng Việt/Giải thích} \\ \hline
 GAE & Graph Auto-Encoder & Mã hóa đồ thị tự động \\ \hline
 RAG & Retrieval-Augmented Generation & Tạo sinh tăng cường truy xuất \\ \hline
@@ -384,19 +382,22 @@ cho phép GraphRAG nắm bắt các mối quan hệ cấp cao, như đường đ
 RAG truyền thống có chi phí tính toán thấp hơn, do chỉ yêu cầu nhúng văn bản và tìm kiếm tuyến tính ~\cite{Karpukhin2020DPR}. Tuy nhiên, GraphRAG đòi hỏi tài nguyên tính toán cao hơn, đặc biệt khi xử lý đồ thị lớn với GNN, với độ phức tạp $O(|V| \cdot d^2)$ cho mỗi tầng GNN (với $d$ là kích thước nhúng) ~\cite{Wu2020GNN}.
 \textbf{Ứng dụng} RAG phù hợp với các tác vụ đơn giản như trả lời câu hỏi dựa trên tài liệu, nhưng kém hiệu quả trong các lĩnh vực yêu cầu quan hệ phức tạp, như phân tích sinh học hoặc mạng xã hội ~\cite{Lewis2020RAG}. GraphRAG được thiết kế cho các ứng dụng đòi hỏi suy luận quan hệ, ví dụ: phân tích mạng sinh học để tìm thuốc hoặc dự đoán liên kết xã hội ~\cite{Chen2024GraphRAG}.
 \textbf{Bảng so sánh}:
-\begin{center}
-\begin{tabular}{|c|c|c|}
-\hline
-\textbf{Tiêu chí} & \textbf{RAG} & \textbf{GraphRAG} \\
-\hline
-Cấu trúc dữ liệu & Văn bản $\mathcal{D}$ & Đồ thị $\mathcal{D}_G$ \\
-Khả năng truy xuất & Ngữ nghĩa, đơn bước & Quan hệ, đa bước \\
-Xử lý quan hệ & Kém & Tốt \\
-Hiệu quả tính toán & Cao & Thấp hơn \\
-Ứng dụng & Trả lời câu hỏi đơn giản & Phân tích quan hệ phức tạp \\
-\hline
-\end{tabular}
-\end{center}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Tiêu chí} & \textbf{RAG} & \textbf{GraphRAG} \\
+        \hline
+        Cấu trúc dữ liệu & Văn bản $\mathcal{D}$ & Đồ thị $\mathcal{D}_G$ \\
+        Khả năng truy xuất & Ngữ nghĩa, đơn bước & Quan hệ, đa bước \\
+        Xử lý quan hệ & Kém & Tốt \\
+        Hiệu quả tính toán & Cao & Thấp hơn \\
+        Ứng dụng & Trả lời câu hỏi đơn giản & Phân tích quan hệ phức tạp \\
+        \hline
+    \end{tabular}
+    \caption{So sánh RAG và GraphRAG}
+\end{table}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{gragvsrag.png}
@@ -640,7 +641,14 @@ Hệ thống được thiết kế theo mô hình client-server với các thàn
 \begin{itemize}
     \item Giao diện đơn giản với một ô nhập câu hỏi và khu vực hiển thị câu trả lời.
     \item Khi người dùng nhập câu hỏi và gửi, hệ thống sẽ hiển thị câu trả lời trả về từ backend.
+    
 \end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0\textwidth]{demofront.png}
+    \caption{Giao diện người dùng}
+
+\end{figure}
 \textbf{API backend (Flask):}
 \begin{itemize}
     \item Cung cấp endpoint nhận câu hỏi từ giao diện web (POST /api/chatbot).
@@ -722,17 +730,17 @@ thuc_tap_co_so/
 Mô hình Graph AutoEncoder (GAE) được xây dựng bằng thư viện PyTorch Geometric, sử dụng hai lớp GCN để học biểu diễn (embedding) cho các đỉnh trong đồ thị tri thức pháp luật.
 \textbf{Kiến trúc mô hình:}
 \begin{itemize}
-\item \textbf{Lớp encoder1:} GCNConv đầu vào, ánh xạ từ số chiều đặc trưng ban đầu (\texttt{input\dim}) sang không gian ẩn (\texttt{hidden\_dim}).
-\item \textbf{Lớp encoder2:} GCNConv tiếp theo, ánh xạ từ không gian ẩn sang không gian embedding (\texttt{embedding\dim}).
+\item \textbf{Lớp encoder1:} GCNConv đầu vào, ánh xạ từ số chiều đặc trưng ban đầu (\texttt{input\_dim}) sang không gian ẩn (\texttt{hidden\_dim}).
+\item \textbf{Lớp encoder2:} GCNConv tiếp theo, ánh xạ từ không gian ẩn sang không gian embedding (\texttt{embedding\_dim}).
 \item \textbf{Hàm encode:} Truyền dữ liệu qua hai lớp GCN, sử dụng hàm kích hoạt ReLU ở lớp đầu.
 \item \textbf{Hàm decode:} Dự đoán khả năng tồn tại cạnh giữa hai đỉnh dựa trên tích vô hướng của embedding.
 \item \textbf{Hàm forward:} Kết hợp encode và decode để huấn luyện và đánh giá mô hình.
 \end{itemize}
 \textbf{Tham số cấu hình:}
 \begin{itemize}
-\item \texttt{input\dim}: Số chiều đặc trưng đầu vào của mỗi node. Trong hệ thống này, sử dụng one-hot encoding nên \texttt{input\_dim} = số lượng node trong đồ thị.
-\item \texttt{hidden\dim}: Số chiều không gian ẩn, thường đặt là 16.
-\item \texttt{embedding\dim}: Số chiều vector embedding đầu ra, thường đặt là 8.
+\item \texttt{input\_dim}: Số chiều đặc trưng đầu vào của mỗi node. Trong hệ thống này, sử dụng one-hot encoding nên \texttt{input\_dim} = số lượng node trong đồ thị.
+\item \texttt{hidden\_dim}: Số chiều không gian ẩn, thường đặt là 16.
+\item \texttt{embedding\_dim}: Số chiều vector embedding đầu ra, thường đặt là 8.
 \item \texttt{epochs}: Số vòng lặp huấn luyện, thường đặt là 200.
 \item \texttt{optimizer}: Adam, learning rate 0.01.
 \end{itemize}
@@ -751,6 +759,11 @@ Dữ liệu đầu vào cho quá trình huấn luyện mô hình GAE gồm:
     \item \textbf{Số node:} 3000 (mỗi node đại diện cho một thực thể pháp lý, được mã hóa one-hot).
     \item \textbf{Số cạnh (edge):} 4000 (mỗi cạnh đại diện cho một quan hệ pháp lý giữa hai thực thể).
 \end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{graph_data.png}
+    \caption{Dữ liệu train dạng đồ thị}
+\end{figure}
 
 \textbf{Chia tập train/validation:}
 \begin{itemize}
@@ -862,6 +875,16 @@ Dữ liệu đầu vào cho quá trình huấn luyện mô hình GAE gồm:
 \end{lstlisting}
 \end{itemize}
 % Trình bày các trường hợp kiểm thử c
+
+
+\subsection{Thử nghiệm}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{demofront.png}
+    \caption{Thử nghiệm hệ thống}
+
+\end{figure}
+
 \newpage
 \section{Kết luận}
 
