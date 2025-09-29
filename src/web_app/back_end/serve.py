@@ -1,14 +1,22 @@
 from flask import Flask, request, jsonify
-from thuc_tap_co_so.src.ai_model.retrieve import Retrieve
-from thuc_tap_co_so.src.ai_model.llm import LLM
+from thuc_tap_co_so.src.ai_model import Retrieve
+from thuc_tap_co_so.src.ai_model import LLM
+import dotenv
+import os
+import random
+dotenv.load_dotenv()
+
 
 app = Flask(__name__)
-retrieve = Retrieve()
-llm = LLM()
+KEYS = [k for k in [os.getenv('GROQ_API_KEY'), os.getenv('GROQ_API_KEY_2'), os.getenv('GROQ_API_KEY_3')] if k]
 
 
 @app.route('/api/chatbot', methods=['POST'])
 def handle_query():
+    if not KEYS:
+        return jsonify({'error': 'No API keys configured'}), 500
+    retrieve = Retrieve(random.choice(KEYS))
+    llm = LLM()
     data = request.get_json()
     query = data.get('query')
 

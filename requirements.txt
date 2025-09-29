@@ -8,5 +8,7 @@ requests
 python-dotenv
 rapidfuzz
 unidecode
-google-generativeai
+groq
 langchain_community
+bert-score
+sacrebleu

@@ -10,6 +10,9 @@ from dotenv import load_dotenv
 from thuc_tap_co_so.src.ai_model.llm import LLM
 
 load_dotenv()
+KEY = [os.getenv('API_KEY_1'), os.getenv('API_KEY_2'), os.getenv('API_KEY_3')]
+
+
 
 driver = GraphDatabase.driver(os.getenv('NEO4J_URI'), auth=(os.getenv('NEO4J_USERNAME'), os.getenv('NEO4J_PASSWORD')))
 
@@ -100,8 +103,8 @@ def find_closest_entities(entities, node_mapping):
 
 
 class Retrieve():
-    def __init__(self):
-        pass
+    def __init__(self, key):
+        self.key = key
 
     def retrieve_infomation(self, query, k=5):
         node_mapping, edge_list, unique_relationship_types = get_graph_data()
@@ -121,13 +124,13 @@ class Retrieve():
         # if not os.path.exists('gae2.torch'):
         #     raise FileNotFoundError("Model file 'gae.torch' not found. Please train and save the GAE model.")
 
-        model.load_state_dict(torch.load('D:/3Y2S/ttcs2/thuc_tap_co_so/src/ai_model/gae2.torch'))
+        model.load_state_dict(torch.load('D:/3Y2S/ttcs2/thuc_tap_co_so/src/ai_model/gae3.torch'))
         model.eval()
 
         with torch.no_grad():
             embeddings, _ = model(graph_data.x, graph_data.edge_index)
 
-        llm = LLM()
+        llm = LLM(self.key)
         entities, _ = llm.extract_entities_and_relationships(query)
 
         matches = find_closest_entities(entities, node_mapping)

@@ -1,24 +1,42 @@
 import re
-import google.generativeai as genai
 import time
 import os
+import torch
 from dotenv import load_dotenv
+from groq import Groq
 
 load_dotenv()
 
 
 class LLM():
-    def __init__(self):
-        # Thay thế bằng API Key của bạn
-        self.API_KEY = os.getenv('API_KEY_1')
-        # Cấu hình API Key
-        genai.configure(api_key=self.API_KEY)
-        # Khởi tạo mô hình Gemini Pro
-        self.model = genai.GenerativeModel("gemini-2.0-flash")
+    def __init__(self, key: str | None = None, model_name: str | None = None):
+        # API key và model cho Groq GPT-OSS
+        self.key = key or os.getenv("GROQ_API_KEY")
+        if not self.key:
+            raise ValueError("Missing GROQ_API_KEY. Please set env or pass key explicitly.")
+        self.model_name = model_name or os.getenv("GROQ_MODEL", "qwen/qwen3-32b")
 
-    def answer(self, query):
-        result = self.model.generate_content(query).text
-        return result
+        # Khởi tạo Groq client
+        self.client = Groq(api_key=self.key)
+
+    def answer(self, query: str) -> str:
+        response = self.client.chat.completions.create(
+            model=self.model_name,
+            messages=[
+                {"role": "system", "content": "Bạn là trợ lý AI trả lời ngắn gọn, chính xác bằng tiếng Việt."},
+                {"role": "user", "content": query},
+            ],
+            temperature=0.2,
+        )
+        return response.choices[0].message.content.strip()
+    
+    def embed(self, query: str):
+        """
+        Trả về embedding của câu truy vấn.
+        Lưu ý: Groq GPT-OSS hiện không cung cấp endpoint embedding tiêu chuẩn.
+        Vui lòng tích hợp sentence-transformers hoặc dịch vụ embedding khác nếu cần.
+        """
+        raise NotImplementedError("Embedding is not implemented for Groq GPT-OSS in this project.")
 
     def extract_entities_and_relationships(self, text):
 
@@ -75,5 +93,7 @@ class LLM():
 if __name__ == '__main__':
     model = LLM()
     query = 'hãy nêu điều 2 khoản 1 luật đất đai'
+    # emded = model.embed(query)
+    # print(emded)
     enterties, relattioships = model.extract_entities_and_relationships(query)
     print(enterties)

@@ -1,0 +1,1115 @@
+[
+  {
+    "input": "Phạm vi điều chỉnh của Luật trật tự, an toàn giao thông đường bộ là gì?",
+    "expect_retrieve": "khoản Luật này quy định về quy tắc, phương tiện, người tham gia giao thông đường bộ, chỉ huy, điều khiển, tuần tra, kiểm soát, giải quyết tai nạn giao thông đường bộ, trách nhiệm quản lý nhà nước và trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan đến trật tự, an toàn giao thông đường bộ.",
+    "expect_response": "Luật này quy định về các quy tắc, phương tiện, người tham gia giao thông, việc chỉ huy, kiểm soát, giải quyết tai nạn giao thông, cũng như trách nhiệm của các cơ quan và cá nhân liên quan đến trật tự và an toàn giao thông đường bộ."
+  },
+  {
+    "input": "Luật này quy định những nội dung gì về giao thông đường bộ?",
+    "expect_retrieve": "khoản Luật này quy định về quy tắc, phương tiện, người tham gia giao thông đường bộ, chỉ huy, điều khiển, tuần tra, kiểm soát, giải quyết tai nạn giao thông đường bộ, trách nhiệm quản lý nhà nước và trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan đến trật tự, an toàn giao thông đường bộ.",
+    "expect_response": "Luật này quy định về quy tắc giao thông, phương tiện, người tham gia giao thông, chỉ huy và điều khiển giao thông, tuần tra kiểm soát, giải quyết tai nạn, và trách nhiệm quản lý nhà nước về trật tự, an toàn giao thông đường bộ."
+  },
+  {
+    "input": "Thiết bị thông minh hỗ trợ chỉ huy giao thông là gì?",
+    "expect_retrieve": "khoản 14.Thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộlà thiết bị kỹ thuật công nghệ có khả năng phát hiện, phân tích, đánh giá các tình huống giao thông đường bộ, vi phạm pháp luật trên đường bộ; do lực lượng chức năng sử dụng để hỗ trợ chỉ huy, điều khiển giao thông đường bộ, giải quyết tình huống và xử lý vi phạm pháp luật trên đường bộ.",
+    "expect_response": "Theo khoản 14, Điều 2, thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông là thiết bị công nghệ có khả năng phát hiện, phân tích tình huống giao thông và vi phạm pháp luật, được lực lượng chức năng sử dụng để hỗ trợ công việc."
+  },
+  {
+    "input": "Nguyên tắc nào được áp dụng để bảo đảm trật tự, an toàn giao thông đường bộ?",
+    "expect_retrieve": "khoản 7. Công tác bảo đảm trật tự, an toàn giao thông đường bộ được thực hiện thống nhất trên cơ sở phân công, phân cấp, phù hợp với chức năng, nhiệm vụ và sự phối hợp chặt chẽ giữa các cơ quan, tổ chức, cá nhân có liên quan.",
+    "expect_response": "Một trong các nguyên tắc là công tác bảo đảm trật tự, an toàn giao thông phải được thực hiện thống nhất, có sự phân công, phân cấp rõ ràng và phối hợp chặt chẽ giữa các bên liên quan."
+  },
+  {
+    "input": "Chính sách của Nhà nước về phát triển phương tiện giao thông là gì?",
+    "expect_retrieve": "khoản 6. Phát triển phương tiện giao thông đường bộ đồng bộ với phát triển kết cấu hạ tầng đường bộ, điều kiện kinh tế - xã hội và nhu cầu đi lại của người dân;nhập khẩu, sản xuất, lắp ráp phương tiện giao thông đường bộ bảo đảm chất lượng an toàn kỹ thuật và bảo vệ môi trường, phù hợp với xu hướng phát triển công nghệ đối với phương tiện giao thông trên thế giới; ưu tiên phát triển phương tiện vận tải công cộng, hạn chế sử dụng phương tiện giao thông cá nhân tham gia giao thông tại các đô thị lớn; ưu tiên chuyển đổi phương tiện sử dụng nhiên liệu hóa thạch sang phương tiện sử dụng điện, năng lượng xanh, thân thiện môi trường, hạ tầng cung cấp năng lượng sạch.",
+    "expect_response": "Nhà nước có chính sách phát triển phương tiện giao thông đồng bộ với hạ tầng, ưu tiên vận tải công cộng, hạn chế xe cá nhân ở đô thị lớn và khuyến khích chuyển đổi sang phương tiện sử dụng năng lượng sạch."
+  },
+  {
+    "input": "Gia đình có trách nhiệm gì trong việc tuyên truyền an toàn giao thông?",
+    "expect_retrieve": "khoản 7. Thành viên trong gia đình có trách nhiệm tuyên truyền, nhắc nhở thành viên khác chấp hành pháp luật về trật tự, an toàn giao thông đường bộ, sử dụng dây đai an toàn, ghế dành cho trẻ em hoặc có người lớn ngồi cùng trẻ em phía saukhi chở trẻ em dưới 06 tuổi bằng xe gắn máy, xe mô tô.",
+    "expect_response": "Thành viên trong gia đình có trách nhiệm tuyên truyền và nhắc nhở nhau chấp hành luật giao thông, đặc biệt là việc sử dụng dây đai an toàn và các biện pháp an toàn cho trẻ em khi đi xe."
+  },
+  {
+    "input": "Ai chịu trách nhiệm lồng ghép kiến thức an toàn giao thông vào chương trình giáo dục?",
+    "expect_retrieve": "khoản 3. Bộ Giáo dục và Đào tạo, Bộ Lao động, Thương binh và Xã hội, trong phạm vi nhiệm vụ, quyền hạn của mình, chủ trì, phối hợp với Bộ Công an và Bộ, cơ quan ngang Bộ có liên quan xây dựng, tích hợp, lồng ghép kiến thức pháp luật về trật tự, an toàn giao thông đường bộ vào chương trình giảng dạy trong cơ sở giáo dục mầm non, cơ sở giáo dục phổ thông, cơ sở giáo dục nghề nghiệp phù hợp với từng cấp học, ngành học.",
+    "expect_response": "Bộ Giáo dục và Đào tạo cùng với Bộ Lao động, Thương binh và Xã hội chủ trì, phối hợp với Bộ Công an để lồng ghép kiến thức pháp luật về an toàn giao thông vào chương trình giảng dạy ở các cấp học."
+  },
+  {
+    "input": "Chính phủ quy định gì về Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ?",
+    "expect_retrieve": "khoản 3. Chính phủ quy định chi tiết khoản 1 và khoản 2 Điều này; quy định việc thu thập, quản lý, khai thác thông tin trong Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ.",
+    "expect_response": "Chính phủ quy định chi tiết về việc thu thập, quản lý và khai thác thông tin trong Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ."
+  },
+  {
+    "input": "Cơ quan nào giúp Chính phủ trong hợp tác quốc tế về an toàn giao thông?",
+    "expect_retrieve": "khoản 3. Bộ Công an chủ trì, phối hợp với các Bộ, ngành liên quan giúp Chính phủ đàm phán, ký kết điều ước quốc tế, thỏa thuận quốc tế hoặc đề xuất cấp có thẩm quyền ký kết điều ước quốc tế, thỏa thuận quốc tế về trật tự, an toàn giao thông đường bộ; chủ trì, phối hợp với các Bộ, ngành liên quan thực hiện hợp tác quốc tế về trật tự, an toàn giao thông đường bộ.",
+    "expect_response": "Bộ Công an là cơ quan chủ trì, phối hợp với các bộ, ngành khác để giúp Chính phủ trong việc đàm phán, ký kết các điều ước, thỏa thuận quốc tế và thực hiện hợp tác quốc tế về trật tự, an toàn giao thông đường bộ."
+  },
+  {
+    "input": "Khi chở trẻ em dưới 10 tuổi trên ô tô cần lưu ý gì?",
+    "expect_retrieve": "khoản 3. Khi chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét trên xe ô tô không được cho trẻ em ngồi cùng hàng ghế với người lái xe, trừ loại xe ô tô chỉ có một hàng ghế; người lái xe phải sử dụng, hướng dẫn sử dụng thiết bị an toàn phù hợp cho trẻ em.",
+    "expect_response": "Theo Điều 10, khi chở trẻ em dưới 10 tuổi và cao dưới 1,35m, không được để trẻ ngồi ở hàng ghế trước (cùng hàng ghế với người lái), trừ xe chỉ có một hàng ghế. Người lái xe phải sử dụng và hướng dẫn sử dụng thiết bị an toàn phù hợp cho trẻ."
+  },
+  {
+    "input": "Ai có thẩm quyền quy định chi tiết về việc chấp hành báo hiệu đường bộ?",
+    "expect_retrieve": "khoản 14. Bộ trưởng Bộ Công an quy định chi tiết khoản 3 Điều này.",
+    "expect_response": "Bộ trưởng Bộ Công an có thẩm quyền quy định chi tiết về việc chấp hành báo hiệu đường bộ theo khoản 3 của Điều 11."
+  },
+  {
+    "input": "Ai quy định về tốc độ và khoảng cách an toàn của xe cơ giới?",
+    "expect_retrieve": "khoản 4. Bộ trưởng Bộ Giao thông vận tải quy định chi tiết về tốc độ và khoảng cách an toàn của xe cơ giới, xe máy chuyên dùng tham gia giao thông đường bộ.",
+    "expect_response": "Bộ trưởng Bộ Giao thông vận tải là người quy định chi tiết về tốc độ và khoảng cách an toàn cho xe cơ giới và xe máy chuyên dùng khi tham gia giao thông."
+  },
+  {
+    "input": "Xe khác có được đi vào làn đường dành riêng không?",
+    "expect_retrieve": "khoản 4. Trên làn đường dành riêng cho một loại phương tiện hoặc một nhóm loại phương tiện, người điều khiển loại phương tiện khác không được đi vào làn đường đó.",
+    "expect_response": "Không. Theo khoản 4, Điều 13, người điều khiển các loại phương tiện khác không được phép đi vào làn đường đã được dành riêng cho một loại phương tiện cụ thể."
+  },
+  {
+    "input": "Khi nào không được vượt xe?",
+    "expect_retrieve": "khoản 6. Không được vượt xe trong trường hợp sau đây:\nmục a) Khi không bảo đảm các điều kiện quy định tại khoản 3 Điều này;\nmục b) Trên cầu hẹp có một làn đường;\nmục c) Đường cong có tầm nhìn bị hạn chế;\nmục d) Trên đường hai chiều tại khu vực đỉnh dốc có tầm nhìn bị hạn chế;\nmục đ) Nơi đường giao nhau, đường bộ giao nhau cùng mức với đường sắt;\nmục e) Khi điều kiện thời tiết hoặc đường không bảo đảm an toàn cho việc vượt;\nmục g) Khi gặp xe ưu tiên;\nmục h) Ở phần đường dành cho người đi bộ qua đường;\nmục i)Khi có người đi bộ, xe lăn của người khuyết tật qua đường;\nmục k) Trong hầm đường bộ.",
+    "expect_response": "Bạn không được vượt xe trên cầu hẹp, đường cong, đỉnh dốc, nơi giao nhau, khi thời tiết xấu, gặp xe ưu tiên, tại phần đường cho người đi bộ, hoặc trong hầm đường bộ."
+  },
+  {
+    "input": "Ở đâu thì không được phép quay đầu xe?",
+    "expect_retrieve": "khoản 4. Không được quay đầu xe ở phần đường dành cho người đi bộ qua đường, trên cầu, đầu cầu, gầm cầu vượt, ngầm, tại nơi đường bộ giao nhau cùng mức với đường sắt,đường hẹp, đường dốc, đoạn đường cong tầm nhìn bị che khuất, trên đường cao tốc, trong hầm đường bộ, trên đường một chiều, trừ khi có hiệu lệnh của người điều khiển giao thông hoặc chỉ dẫn của biển báo hiệu tạm thời.",
+    "expect_response": "Bạn không được quay đầu xe ở nhiều nơi như: phần đường người đi bộ, trên cầu, gầm cầu vượt, đường hẹp, đường dốc, đường cong, đường cao tốc, trong hầm, và trên đường một chiều, trừ khi có chỉ dẫn đặc biệt."
+  },
+  {
+    "input": "Những nơi nào cấm lùi xe?",
+    "expect_retrieve": "khoản 2. Không được lùi xe ở đường một chiều, khu vực cấm dừng, trên phần đường dành cho người đi bộ qua đường, nơi đường bộ giao nhau, đường bộ giao nhau cùng mức với đường sắt, nơi tầm nhìn bị che khuất, trong hầm đường bộ, trên đường cao tốc.",
+    "expect_response": "Theo khoản 2, Điều 16, không được lùi xe ở đường một chiều, khu vực cấm dừng, nơi có người đi bộ qua đường, nơi giao nhau, nơi tầm nhìn bị che khuất, trong hầm đường bộ và trên đường cao tốc."
+  },
+  {
+    "input": "Khi tránh xe đi ngược chiều, xe nào phải nhường đường?",
+    "expect_retrieve": "khoản 2. Các trường hợp nhường đường khi tránh nhau bao gồm:\nmục a) Nơi đường hẹp chỉ đủ cho một xe chạy và có chỗ tránh xe thì xe nào ở gần chỗ tránh hơn phải vào vị trí tránh, nhường đường cho xe đi ngược chiều;\nmục b) Xe xuống dốc phải nhường đường cho xe lên dốc;\nmục c) Xe có chướng ngại vật phía trước phải nhường đường cho xe không có chướng ngại vật phía trước.",
+    "expect_response": "Khi tránh nhau, xe ở gần chỗ tránh hơn, xe xuống dốc, hoặc xe có chướng ngại vật phía trước phải nhường đường."
+  },
+  {
+    "input": "Phải làm gì khi xe gặp sự cố và phải đỗ ở nơi không được phép?",
+    "expect_retrieve": "khoản 7. Trong trường hợpgặp sự cố kỹ thuật hoặc bất khả kháng khác buộc phải đỗ xe, khi đỗ xe chiếm một phần đường xe chạy hoặc tại nơi không được phép đỗ, phải có báo hiệu bằng đèn khẩn cấp hoặc đặt biển cảnh báo về phía sau xe để người điều khiển phương tiện tham gia giao thông đường bộ khác biết.",
+    "expect_response": "Nếu xe gặp sự cố và phải đỗ ở nơi không được phép, bạn phải bật đèn báo hiệu khẩn cấp hoặc đặt biển cảnh báo phía sau xe để các phương tiện khác biết."
+  },
+  {
+    "input": "Quy tắc mở cửa xe an toàn là gì?",
+    "expect_retrieve": "khoản 2. Trước khi mở cửa xe, người mở cửa phải quan sát phía trước, phía sau và bên phía mở cửa xe, khi thấy an toàn mới được mở cửa xe, ra khỏi xe; không để cửa xe mở nếu không bảo đảm an toàn.",
+    "expect_response": "Trước khi mở cửa xe, bạn phải quan sát kỹ phía trước, phía sau và bên hông. Chỉ mở cửa khi chắc chắn an toàn và không được để cửa xe mở nếu gây nguy hiểm."
+  },
+  {
+    "input": "Khi nào phải bật đèn cảnh báo màu vàng?",
+    "expect_retrieve": "khoản 3. Người lái xe, người điều khiển xe máy chuyên dùng khi thực hiện công việc trên đường bộ phải bật sáng đèn cảnh báo màu vàng.",
+    "expect_response": "Người lái xe và người điều khiển xe máy chuyên dùng phải bật đèn cảnh báo màu vàng khi đang thực hiện công việc trên đường bộ."
+  },
+  {
+    "input": "Quy định về sử dụng còi xe vào ban đêm như thế nào?",
+    "expect_retrieve": "khoản 2. Không sử dụng còi liên tục; không sử dụng còi có âm lượng không đúng quy định; không sử dụng còi trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau trong khu đông dân cư, khu vực cơ sở khám bệnh, chữa bệnh, trừ xe ưu tiên.",
+    "expect_response": "Không được sử dụng còi xe trong khoảng thời gian từ 10 giờ tối (22:00) đến 5 giờ sáng hôm sau tại các khu đông dân cư và khu vực bệnh viện, trừ các loại xe ưu tiên."
+  },
+  {
+    "input": "Tại vòng xuyến, xe nào được ưu tiên đi trước?",
+    "expect_retrieve": "khoản 3. Tại nơi đường giao nhau có báo hiệu đi theo vòng xuyến, phải nhường đường cho xe đi đến từ bên trái.",
+    "expect_response": "Tại nơi giao nhau có vòng xuyến, bạn phải nhường đường cho xe đi đến từ phía bên trái của mình."
+  },
+  {
+    "input": "Quy tắc giao thông khi qua cầu phao là gì?",
+    "expect_retrieve": "khoản 4. Khi qua cầu phao, phải chấp hành quy định sau đây:\nmục a) Xe cơ giới, xe máy chuyên dùng phải đi theo một hàng theo chiều di chuyển, không gây cản trở người, phương tiện đi ngược chiều;\nmục b) Xe thô sơ, người đi bộ phải đi sát về phía bên phải theo chiều đi của mình, không gây cản trở xe cơ giới, xe máy chuyên dùng;\nmục c) Xe cơ giới, xe máy chuyên dùng, xe thô sơ, người đi bộ phải tuân thủ hướng dẫn của người điều khiển giao thông.",
+    "expect_response": "Khi qua cầu phao, xe cơ giới phải đi thành một hàng, xe thô sơ và người đi bộ phải đi sát lề phải, và tất cả phải tuân thủ hướng dẫn của người điều khiển giao thông."
+  },
+  {
+    "input": "Phải làm gì khi xe bị hỏng trên đường ray tàu hỏa?",
+    "expect_retrieve": "khoản 3. Khi phương tiện tham gia giao thông đường bộ bị hư hỏng, bị tai nạn hoặc hàng hóa rơi đổ trên đường ngang, cầu chung đường sắt mà không thể di chuyển ngay khỏi phạm vi an toàn đường sắt, người điều khiển phương tiện tham gia giao thông đường bộ và người có mặt phải ngay lập tức báo hiệu để dừng tàu, thực hiện các biện pháp bảo đảm an toàn.",
+    "expect_response": "Nếu xe của bạn bị hỏng trên đường ray và không thể di chuyển, bạn và những người có mặt phải ngay lập tức tìm cách báo hiệu để dừng tàu và thực hiện các biện pháp an toàn cần thiết."
+  },
+  {
+    "input": "Loại xe nào không được đi trên đường cao tốc?",
+    "expect_retrieve": "khoản 3. Xe máy chuyên dùng có tốc độ thiết kế nhỏ hơn tốc độ tối thiểu quy định đối với đường cao tốc, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô, xe gắn máy, xe thô sơ, người đi bộ không được đi trên đường cao tốc, trừ người, phương tiện giao thôngđường bộvà thiết bị phục vụ việc quản lý, bảo trì đường cao tốc.",
+    "expect_response": "Các loại xe không được đi trên đường cao tốc bao gồm xe máy chuyên dùng có tốc độ chậm, xe bốn bánh gắn động cơ, xe mô tô, xe gắn máy, xe thô sơ và người đi bộ."
+  },
+  {
+    "input": "Quy tắc giao thông trong hầm đường bộ có gì đặc biệt?",
+    "expect_retrieve": "khoản 3. Các quy tắc giao thông đường bộ khác quy định tại Chương này.",
+    "expect_response": "Khi tham gia giao thông trong hầm đường bộ, bạn phải tuân thủ các quy tắc giao thông chung được quy định tại Chương II của Luật này."
+  },
+  {
+    "input": "Ai quy định về việc xe cảnh sát giao thông dẫn đường?",
+    "expect_retrieve": "khoản 7. Bộ trưởng Bộ Công an quy định các đoàn trong nước và khách nước ngoài đến Việt Nam có bố trí xe Cảnh sát giao thông dẫn đường; quy định quy trình dẫn đường của Cảnh sát giao thông đối với các đoàn trong nước và khách nước ngoài đến Việt Nam.",
+    "expect_response": "Bộ trưởng Bộ Công an là người quy định về các đoàn và quy trình được xe Cảnh sát giao thông dẫn đường."
+  },
+  {
+    "input": "Xe ô tô chở hàng có được chở người không?",
+    "expect_retrieve": "khoản 2. Xe ô tô chở hàng mà chở người trong các trường hợp quy định tại khoản 1 Điều này phải bảo đảm an toàn khi tham gia giao thông đường bộ.",
+    "expect_response": "Xe ô tô chở hàng chỉ được phép chở người trong các trường hợp cụ thể được quy định tại khoản 1, Điều 28 và phải luôn đảm bảo an toàn."
+  },
+  {
+    "input": "Có được chở người trên xe được kéo không?",
+    "expect_retrieve": "khoản 3. Không được chở người trên xe được kéo, trừ người điều khiển; xe kéo rơ moóc, xe ô tô đầu kéo kéo sơ mi rơ moóc không được kéo thêm rơ moóc, sơ mi rơ moóc hoặc xe khác.",
+    "expect_response": "Không, bạn không được chở người trên xe đang được kéo, ngoại trừ người điều khiển chiếc xe đó."
+  },
+  {
+    "input": "Trẻ em dưới 7 tuổi qua đường phải làm sao?",
+    "expect_retrieve": "mục a) Trẻ em dưới 07 tuổi khi đi qua đường phải có người lớn dẫn dắt;",
+    "expect_response": "Theo luật, trẻ em dưới 7 tuổi khi đi qua đường bắt buộc phải có người lớn đi cùng và dẫn dắt."
+  },
+  {
+    "input": "Người khiếm thị đi trên đường cần có gì?",
+    "expect_retrieve": "mục c) Người khiếm thị khi đi trên đường bộ phải có người dẫn dắt hoặc có công cụ để báo hiệu cho người khác nhận biết là người khiếm thị;",
+    "expect_response": "Người khiếm thị khi đi trên đường bộ phải có người dẫn dắt hoặc sử dụng công cụ báo hiệu (như gậy trắng) để người khác có thể nhận biết."
+  },
+  {
+    "input": "Quy định về xếp hàng hóa trên xe thô sơ như thế nào?",
+    "expect_retrieve": "khoản 5. Hàng hóa xếp trên xe thô sơ phải bảo đảm an toàn, không gây cản trở giao thông và che khuất tầm nhìn của người điều khiển.Hàng hóa xếp trên xe không vượt quá 1/3 chiều dài thân xe và không vượt quá 01 mét phía trước và phía sau xe; không vượt quá 0,4 mét mỗi bên bánh xe.",
+    "expect_response": "Hàng hóa trên xe thô sơ phải được xếp an toàn, không che khuất tầm nhìn. Hàng không được dài quá 1/3 thân xe, không nhô ra trước hoặc sau quá 1 mét, và không rộng ra mỗi bên bánh xe quá 0,4 mét."
+  },
+  {
+    "input": "Có được thả rông vật nuôi trên đường không?",
+    "expect_retrieve": "khoản 3. Không được thả vật nuôi trên đường bộ.",
+    "expect_response": "Không, theo khoản 3 Điều 32, hành vi thả vật nuôi trên đường bộ bị nghiêm cấm."
+  },
+  {
+    "input": "Ai quy định về dấu hiệu nhận biết xe sử dụng năng lượng sạch?",
+    "expect_retrieve": "khoản 6. Bộ trưởng Bộ Giao thông vận tải quy định chi tiết Điều này; quy định dấu hiệu nhận biết xe cơ giới sử dụng năng lượng sạch, năng lượng xanh, thân thiện môi trường.",
+    "expect_response": "Bộ trưởng Bộ Giao thông vận tải là người quy định về dấu hiệu nhận biết cho các loại xe cơ giới sử dụng năng lượng sạch, năng lượng xanh và thân thiện với môi trường."
+  },
+  {
+    "input": "Cơ quan nào quy định phạm vi hoạt động của xe thô sơ tại địa phương?",
+    "expect_retrieve": "khoản 6. Ủy ban nhân dân cấp tỉnh quy định phạm vi hoạt động của xe thô sơ, xe chở hàng bốn bánh có gắn động cơ, xe chở người bốn bánh có gắn động cơ tại địa phương.",
+    "expect_response": "Ủy ban nhân dân cấp tỉnh có thẩm quyền quy định về phạm vi hoạt động của xe thô sơ và xe bốn bánh có gắn động cơ tại địa phương mình."
+  },
+  {
+    "input": "Ai quy định quy chuẩn kỹ thuật quốc gia về biển số xe?",
+    "expect_retrieve": "khoản 4. Bộ trưởng Bộ Công an quy định quy chuẩn kỹ thuật quốc gia về biển số xe; đối với biển số xe thuộc phạm vi quản lý của Bộ Quốc phòng do Bộ trưởng Bộ Quốc phòng quy định quy chuẩn kỹ thuật.",
+    "expect_response": "Bộ trưởng Bộ Công an quy định quy chuẩn kỹ thuật quốc gia về biển số xe. Riêng đối với biển số xe của quân đội thì do Bộ trưởng Bộ Quốc phòng quy định."
+  },
+  {
+    "input": "Chính phủ quy định gì về đấu giá biển số xe?",
+    "expect_retrieve": "khoản 7. Chính phủ quy định chi tiết Điều này; quy định bước giá, hình thức, phương thức, trình tự, thủ tục đấu giá biển số xe.",
+    "expect_response": "Chính phủ là cơ quan quy định chi tiết về việc đấu giá biển số xe, bao gồm bước giá, hình thức, phương thức, và trình tự thủ tục."
+  },
+  {
+    "input": "Quyền và nghĩa vụ của người trúng đấu giá biển số xe do ai quy định chi tiết?",
+    "expect_retrieve": "khoản 3. Chính phủ quy định chi tiết Điều này.",
+    "expect_response": "Chính phủ quy định chi tiết về quyền và nghĩa vụ của người trúng đấu giá biển số xe."
+  },
+  {
+    "input": "Ai quy định thủ tục cấp, thu hồi đăng ký, biển số xe của quân đội?",
+    "expect_retrieve": "khoản 8. Bộ trưởng Bộ Quốc phòng quy định trình tự, thủ tục cấp, thu hồi chứng nhận đăng ký xe, biển số xe cơ giới, xe máy chuyên dùng tham gia giao thông đường bộ do Bộ Quốc phòng quản lý.",
+    "expect_response": "Bộ trưởng Bộ Quốc phòng quy định trình tự, thủ tục cấp và thu hồi giấy chứng nhận đăng ký xe và biển số xe do Bộ Quốc phòng quản lý."
+  },
+  {
+    "input": "Cơ quan nào quy định chi tiết về niên hạn sử dụng của xe cơ giới?",
+    "expect_retrieve": "khoản 4. Chính phủ quy định chi tiết Điều này.",
+    "expect_response": "Chính phủ là cơ quan quy định chi tiết về niên hạn sử dụng của xe cơ giới."
+  },
+  {
+    "input": "Ai quy định về chứng nhận chất lượng an toàn kỹ thuật cho xe của công an?",
+    "expect_retrieve": "khoản 8. Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an quy định về trình tự, thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới trong nhập khẩu, sản xuất, lắp ráp thuộc phạm vi quản lý của Bộ Quốc phòng, Bộ Công an.",
+    "expect_response": "Bộ trưởng Bộ Công an quy định về trình tự và thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường cho các loại xe cơ giới thuộc phạm vi quản lý của Bộ Công an."
+  },
+  {
+    "input": "Ai quy định về kiểm định an toàn kỹ thuật của xe quân đội?",
+    "expect_retrieve": "khoản 6. Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an quy định về trình tự, thủ tục kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới, xe máy chuyên dùng, chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới cải tạo, xe máy chuyên dùng cải tạo thuộc phạm vi quản lý của Bộ Quốc phòng, Bộ Công an.",
+    "expect_response": "Bộ trưởng Bộ Quốc phòng quy định về trình tự, thủ tục kiểm định an toàn kỹ thuật và bảo vệ môi trường đối với các xe cơ giới thuộc phạm vi quản lý của Bộ Quốc phòng."
+  },
+  {
+    "input": "Trách nhiệm của chủ xe cơ giới là gì?",
+    "expect_retrieve": "mục a) Chấp hành các quy định về cấp, thu hồi chứng nhận đăng ký xe, biển số xe, kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới, xe máy chuyên dùng;\nmục b) Phải bảo dưỡng, sửa chữa để bảo đảm duy trì tình trạng kỹ thuật của phương tiện; chịu trách nhiệm theo quy định của pháp luật đối với hành vi đưa phương tiện không bảo đảm an toàn kỹ thuật và bảo vệ môi trường tham gia giao thông đường bộ;\nmục c) Tổ chức, cá nhân đứng tên trong giấy chứng nhận đăng ký xe tiếp tục chịu trách nhiệm của chủ xe khi chưa thực hiện thu hồi chứng nhận đăng ký xe, biển số xe đối với trường hợp phải thu hồi theo quy định tạikhoản 6 Điều 39 của Luật này;\nmục d)Tổ chức, cá nhân vi phạm pháp luật về trật tự, an toàn giao thông đường bộ mà chưathực hiện xong yêu cầu của cơ quan nhà nước có thẩm quyền về giải quyết vụ việc vi phạm hành chínhtrong lĩnh vực trật tự, an toàn giao thông đường bộ thì chưa được giải quyết việc đăng ký, đăng kiểm phương tiện vi phạm;\nmục đ) Chấp hành quy định khác của pháp luật khi tham gia giao thông đường bộ.",
+    "expect_response": "Chủ xe cơ giới có trách nhiệm chấp hành các quy định về đăng ký, đăng kiểm; bảo dưỡng xe; chịu trách nhiệm về xe ngay cả khi chưa thu hồi đăng ký; và phải hoàn thành các nghĩa vụ vi phạm hành chính trước khi đăng ký, đăng kiểm xe."
+  },
+  {
+    "input": "Ai quy định về hoạt động vận tải đường bộ trong đô thị?",
+    "expect_retrieve": "khoản 5. Ủy ban nhân dân cấp tỉnh quy định về hoạt động vận tải đường bộ trong đô thị và tỷ lệ phương tiện vận chuyển hành khách công cộng có thiết bị hỗ trợ cho người khuyết tật trong đô thị.",
+    "expect_response": "Ủy ban nhân dân cấp tỉnh là cơ quan quy định về hoạt động vận tải đường bộ trong đô thị, bao gồm cả việc quy định tỷ lệ xe công cộng có thiết bị hỗ trợ người khuyết tật."
+  },
+  {
+    "input": "Trách nhiệm của nhân viên phục vụ trên xe khách là gì?",
+    "expect_retrieve": "khoản 2.Người lái xe, nhân viên phục vụ trên xe ô tô vận chuyển hành khách có trách nhiệm sau đây:\nmục a) Thực hiện quy định tại khoản 1 Điều này;\nmục b) Trước khi cho xe khởi hành phải kiểm tra các điều kiện bảo đảm an toàn của xe, hướng dẫn cho hành khách về an toàn giao thông đường bộ và thoát hiểm khi gặp sự cố;\nmục c) Hướng dẫn, yêu cầu, kiểm tra người trên xe thực hiện quy định tạikhoản 2 Điều 10 của Luật này;\nmục d) Kiểm tra việc sắp xếp, chằng buộc hành lý, hàng hóa bảo đảm an toàn;\nmục đ) Giữ gìn trật tự, vệ sinh trong xe;\nmục e) Phối hợp thực hiện các nhiệm vụ khác theo yêu cầu của cơ quan Công an trong công tác bảo vệ an ninh quốc gia, bảo đảm trật tự, an toàn xã hội;\nmục g) Thực hiện các quy tắc giao thông đường bộ khác quy định tại Chương II của Luật này.",
+    "expect_response": "Nhân viên phục vụ trên xe khách có nhiều trách nhiệm, bao gồm kiểm tra an toàn xe, hướng dẫn hành khách, kiểm tra hành lý, giữ gìn trật tự vệ sinh, và phối hợp với cơ quan công an khi được yêu cầu."
+  },
+  {
+    "input": "Xe đưa đón học sinh có được ưu tiên gì không?",
+    "expect_retrieve": "khoản 6. Xe đưa đón trẻ em mầm non, học sinh đượcưu tiên trong tổ chức phân luồng, điều tiết giao thông, bố trí nơi dừng xe, đỗ xe tại khu vực trường học và tại các điểm trên lộ trình đưa đón trẻ em mầm non, học sinh.",
+    "expect_response": "Có. Xe đưa đón học sinh được ưu tiên trong việc phân luồng, điều tiết giao thông và được bố trí nơi dừng, đỗ xe thuận tiện tại khu vực trường học và các điểm đưa đón."
+  },
+  {
+    "input": "Ai quy định về việc dùng xe máy để kinh doanh vận tải?",
+    "expect_retrieve": "khoản 2. Ủy ban nhân dân cấp tỉnh quy định vềsử dụng xe mô tô, xe gắn máy, xe thô sơđể kinh doanh vận chuyển hành khách, hàng hóatại địa phương.",
+    "expect_response": "Ủy ban nhân dân cấp tỉnh là cơ quan có thẩm quyền quy định về việc sử dụng xe máy, xe thô sơ để kinh doanh vận chuyển hành khách và hàng hóa tại địa phương."
+  },
+  {
+    "input": "Cơ quan nào quy định thời gian hoạt động của xe bốn bánh chở hàng?",
+    "expect_retrieve": "khoản 2. Ủy ban nhân dân cấp tỉnh quy định thời gian, phạm vi hoạt động vận chuyển hành khách bằng xe bốn bánh có gắn động cơ và hoạt động vận chuyển hàng hóa bằng xe chở hàng bốn bánh có gắn động cơ tại địa phương.",
+    "expect_response": "Ủy ban nhân dân cấp tỉnh quy định về thời gian và phạm vi hoạt động cho xe bốn bánh có gắn động cơ dùng để vận chuyển hành khách và hàng hóa tại địa phương."
+  },
+  {
+    "input": "Lực lượng nào chịu trách nhiệm xử lý xe quá tải?",
+    "expect_retrieve": "khoản 2. Lực lượng Cảnh sát giao thông chịu trách nhiệm tổ chức tuần tra, kiểm soát, xử lý vi phạm pháp luật về trật tự, an toàn giao thông đường bộ đối với xe ô tô vận chuyểnhànghóaquá tảilưu hành trên đường bộ.",
+    "expect_response": "Lực lượng Cảnh sát giao thông là đơn vị chịu trách nhiệm chính trong việc tuần tra, kiểm soát và xử lý các trường hợp xe ô tô chở hàng quá tải."
+  },
+  {
+    "input": "Yêu cầu khi vận chuyển thực phẩm tươi sống là gì?",
+    "expect_retrieve": "khoản 2. Việc vận chuyển thực phẩm tươi sống phải bảo đảm các yêu cầu sau đây:\nmục a) Người lái xe phải mang đủ giấy tờ theo quy định của pháp luật;\nmục b) Trong quá trình vận chuyển phải chấp hành các quy định của pháp luật về trật tự, an toàn giao thông đường bộ, an toàn thực phẩm, vệ sinh dịch tễ, phòng dịch và bảo đảm vệ sinh môi trường.",
+    "expect_response": "Khi vận chuyển thực phẩm tươi sống, người lái xe phải có đủ giấy tờ và phải tuân thủ các quy định về an toàn giao thông, an toàn thực phẩm, vệ sinh dịch tễ và bảo vệ môi trường."
+  },
+  {
+    "input": "Ai quy định chi tiết về vận chuyển hàng hóa nguy hiểm?",
+    "expect_retrieve": "khoản 6. Chính phủ quy định chi tiết Điều này.",
+    "expect_response": "Chính phủ là cơ quan quy định chi tiết về việc bảo đảm an toàn giao thông khi vận chuyển hàng hóa nguy hiểm."
+  },
+  {
+    "input": "Ai quy định về việc lưu hành xe quá khổ, quá tải?",
+    "expect_retrieve": "khoản 9. Bộ trưởng Bộ Giao thông vận tải quy định chi tiết điểm b khoản 3 Điều này; quy định về tải trọng, khổ giới hạn của đường bộ; quy định lưu hành xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích trên đường bộ; quy định trình tự, thủ tục cấp giấy phép lưu hành cho xe quá tải trọng, xe quá khổ giới hạn, xe bánh xích.",
+    "expect_response": "Bộ trưởng Bộ Giao thông vận tải quy định chi tiết về tải trọng, khổ giới hạn đường bộ và việc cấp giấy phép lưu hành cho các loại xe quá khổ, quá tải, xe bánh xích."
+  },
+  {
+    "input": "Ai quy định về hàng siêu trường, siêu trọng?",
+    "expect_retrieve": "khoản 7. Bộ trưởng Bộ Giao thông vận tải quy định cụ thể về hàng siêu trường, siêu trọng; quy định việc vận chuyển hàng siêu trường, siêu trọng và việc cấp giấy phép lưu hành xe vận chuyển hàng siêu trường, siêu trọng trên đường bộ.",
+    "expect_response": "Bộ trưởng Bộ Giao thông vận tải là người quy định cụ thể về hàng siêu trường, siêu trọng và việc cấp phép lưu hành cho xe vận chuyển loại hàng này."
+  },
+  {
+    "input": "Xe cứu hộ giao thông phải tuân thủ quy định gì về khối lượng?",
+    "expect_retrieve": "khoản 3. Xe cứu hộ giao thông đường bộ phải tuân thủ quy định của pháp luật về khối lượng hàng hóa chuyên chở của xe cứu hộ và khối lượng của xe được cứu hộ ghi trên Chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường.",
+    "expect_response": "Xe cứu hộ phải tuân thủ quy định về khối lượng chuyên chở của chính nó và khối lượng của xe được cứu hộ, theo thông tin trên giấy chứng nhận kiểm định."
+  },
+  {
+    "input": "Người tập lái xe ô tô khi tham gia giao thông cần điều kiện gì?",
+    "expect_retrieve": "khoản 5. Người tập lái xe ô tô, người dự sát hạch lái xe ô tô khi tham gia giao thông đường bộ phải thực hành trên xe tập lái, xe sát hạch trên tuyến đường tập lái, tuyến đường sát hạch, có giáo viên dạy lái hoặc sát hạch viên bảo trợ tay lái. Giáo viên dạy lái, sát hạch viên phải mang theo các loại giấy tờ quy định tại khoản 1 Điều này.",
+    "expect_response": "Người tập lái hoặc dự sát hạch lái xe ô tô phải thực hành trên xe tập lái/sát hạch, trên đúng tuyến đường quy định và phải có giáo viên hoặc sát hạch viên đi cùng để bảo trợ tay lái."
+  },
+  {
+    "input": "Ai quy định mẫu giấy phép lái xe?",
+    "expect_retrieve": "khoản 9. Bộ trưởng Bộ Giao thông vận tải quy định mẫu giấy phép lái xe và giấy phép lái xe quốc tế, trình tự, thủ tục cấp và việc sử dụng giấy phép lái xe, giấy phép lái xe quốc tế; đối vớimẫu giấy phép lái xe, trình tự, thủ tục cấp và việc sử dụng giấy phép lái xe của lực lượng quân đội, công an làm nhiệm vụ quốc phòng, an ninh doBộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an quyđịnh.",
+    "expect_response": "Bộ trưởng Bộ Giao thông vận tải quy định mẫu giấy phép lái xe thông thường và quốc tế. Riêng mẫu giấy phép lái xe cho lực lượng quân đội và công an sẽ do Bộ trưởng Bộ Quốc phòng và Bộ trưởng Bộ Công an quy định."
+  },
+  {
+    "input": "Cơ quan nào quy định về việc trừ điểm, phục hồi điểm giấy phép lái xe?",
+    "expect_retrieve": "khoản 6. Chính phủ quy định chi tiết khoản 1 Điều này; quy định trình tự, thủ tục, thẩm quyền trừ điểm, phục hồi điểm giấy phép lái xe; quy định lộ trình thực hiện Điều này. Bộ trưởng Bộ Công an quy định chi tiết khoản 3 Điều này.",
+    "expect_response": "Chính phủ là cơ quan quy định chi tiết về trình tự, thủ tục và thẩm quyền trong việc trừ và phục hồi điểm của giấy phép lái xe."
+  },
+  {
+    "input": "Ai quy định độ tuổi lái xe trong lực lượng quân đội, công an?",
+    "expect_retrieve": "khoản 3. Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an quy định độ tuổi của người lái xe trong lực lượng quân đội, công an làm nhiệm vụ quốc phòng, an ninh.",
+    "expect_response": "Bộ trưởng Bộ Quốc phòng và Bộ trưởng Bộ Công an là những người có thẩm quyền quy định về độ tuổi của người lái xe phục vụ trong lực lượng quân đội và công an."
+  },
+  {
+    "input": "Ai quy định chương trình đào tạo lái xe?",
+    "expect_retrieve": "khoản 8. Bộ trưởng Bộ Giao thông vận tải quy định hình thức, nội dung, chương trình đào tạo lái xe, thời gian lái xe an toàn cho từng hạng giấy phép lái xe quy định tại khoản 4 Điều này và quy định tiêu chuẩn của cơ sở đào tạo lái xe mô tô; đối với cơ sở đào tạo, tổ chức đào tạo lái xe cho lực lượng quân đội, công an làm nhiệm vụ quốc phòng, an ninh do Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an quy định.",
+    "expect_response": "Bộ trưởng Bộ Giao thông vận tải quy định chương trình đào tạo lái xe nói chung. Đối với lực lượng quân đội và công an, chương trình đào tạo sẽ do Bộ trưởng Bộ Quốc phòng và Bộ trưởng Bộ Công an quy định."
+  }
+  ,
+  {
+    "input": "Tại nơi đường giao nhau có vòng xuyến, mình phải nhường cho xe nào?",
+    "expect_retrieve": "khoản 3. Tại nơi đường giao nhau có báo hiệu đi theo vòng xuyến, phải nhường đường cho xe đi đến từ bên trái.",
+    "expect_response": "Khi vào vòng xuyến, bạn phải nhường đường cho xe đi tới từ bên trái."
+  },
+  {
+    "input": "Khi chuyển làn trên đường nhiều làn, cần tuân thủ nguyên tắc gì?",
+    "expect_retrieve": "khoản 2. Trên đường có nhiều làn đường cho xe đi cùng chiều được phân biệt bằng vạch kẻ phân làn đường, người điều khiển phương tiện tham gia giao thông đường bộ phải cho xe đi trong một làn đường và chỉ được chuyển làn đường ở những nơi cho phép; mỗi lần chuyển làn đường chỉ được phép chuyển sang một làn đường liền kề; khi chuyển làn đường phải có tín hiệu báo trước; phải quan sát bảo đảm khoảng cách an toàn với xe phía trước, phía sau và hai bên mới được chuyển làn.",
+    "expect_response": "Phải đi đúng làn, chỉ chuyển sang làn liền kề ở nơi cho phép, bật tín hiệu trước và quan sát đảm bảo an toàn trước-sau-hai bên."
+  },
+  {
+    "input": "Trong tình huống nào được phép vượt bên phải?",
+    "expect_retrieve": "khoản 2. Khi vượt các xe phải vượt bên trái; trường hợp khi xe phía trước có tín hiệu rẽ trái hoặc đang rẽ trái hoặc khi xe chuyên dùng đang làm việc trên đường mà không thể vượt bên trái thì được vượt về bên phải.",
+    "expect_response": "Chỉ khi xe trước đang bật tín hiệu hoặc rẽ trái, hoặc xe chuyên dùng đang làm việc không thể vượt trái, bạn mới được vượt bên phải."
+  },
+  {
+    "input": "Trước khi rẽ, người lái xe cần làm gì để an toàn?",
+    "expect_retrieve": "khoản 2. Trước khi chuyển hướng, người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, bảo đảm khoảng cách an toàn với xe phía sau, giảm tốc độ và có tín hiệu báo hướng rẽ hoặc có tín hiệu bằng tay theo hướng rẽ đối với xe thô sơ không có đèn báo hướng rẽ, chuyển dần sang làn gần nhất với hướng rẽ. Tín hiệu báo hướng rẽ hoặc tín hiệu bằng tay phải sử dụng liên tục trong quá trình chuyển hướng. Khi bảo đảm an toàn, không gây trở ngại cho người và phương tiện khác mới được chuyển hướng.",
+    "expect_response": "Quan sát, giảm tốc, bật tín hiệu rẽ (hoặc ra hiệu bằng tay với xe thô sơ), chuyển dần về làn gần hướng rẽ và chỉ rẽ khi chắc chắn an toàn."
+  },
+  {
+    "input": "Xe được dừng/đỗ ở đâu thì bị cấm hoàn toàn?",
+    "expect_retrieve": "khoản 4. Người điều khiển phương tiện tham gia giao thông đường bộ không được dừng xe, đỗ xe tại các vị trí sau đây:\nmục a) Bên trái đường một chiều;\nmục b) Trên đoạn đường cong hoặc gần đầu dốc mà tầm nhìn bị che khuất;\nmục c) Trên cầu, trừ những trường hợp tổ chức giao thông cho phép;\nmục d) Gầm cầu vượt, trừ những nơi cho phép dừng xe, đỗ xe;\nmục đ) Song song cùng chiều với một xe khác đang dừng, đỗ trên đường;\nmục e) Cách xe ô tô đang đỗ ngược chiều dưới 20 mét trên đường phố hẹp,dưới 40 mét trên đường có một làn xe cơ giới trên một chiều đường;\nmục g) Trên phần đường dành cho người đi bộ qua đường;\nmục h) Nơi đường giao nhau và trong phạm vi 05 mét tính từ mép đường giao nhau;\nmục i) Điểm đón, trả khách;\nmục k) Trước cổng và trong phạm vi 05 mét hai bên cổng trụ sở cơ quan, tổ chức có bố trí đường cho xe ra, vào;\nmục l) Tại nơi phần đường có chiều rộng chỉ đủ cho một làn xe cơ giới;\nmục m) Trong phạm vi an toàn của đường sắt;\nmục n) Che khuất biển báo hiệu đường bộ, đèn tín hiệu giao thông;\nmục o) Trên đường dành riêng cho xe buýt, trên miệng cống thoát nước, miệng hầm của đường điện thoại, điện cao thế, chỗ dành riêng cho xe chữa cháy lấy nước; trên lòng đường, vỉa hè trái quy định của pháp luật.",
+    "expect_response": "Cấm dừng/đỗ ở bên trái đường một chiều, trên cầu, đoạn cong khuất tầm nhìn, gần ngã ba/ngã tư (trong 5m), phần đường người đi bộ, điểm đón trả khách… và các vị trí liệt kê tại khoản 4 Điều 18."
+  },
+  {
+    "input": "Ban đêm đi ô tô có bắt buộc bật đèn không?",
+    "expect_retrieve": "khoản 1. Người lái xe, người điều khiển xe máy chuyên dùng tham gia giao thông đường bộ phải bật đèn chiếu sáng phía trước trong thời gian từ 18 giờ ngày hôm trước đến 06 giờ ngày hôm sau hoặc khi có sương mù, khói, bụi, trời mưa, thời tiết xấu làm hạn chế tầm nhìn.",
+    "expect_response": "Có. Từ 18h đến 06h hôm sau (hoặc khi thời tiết hạn chế tầm nhìn), phải bật đèn chiếu sáng phía trước."
+  },
+  {
+    "input": "Khi nào được dùng còi để xin vượt?",
+    "expect_retrieve": "khoản 1. Chỉ được sử dụng tín hiệu còi của phương tiện tham gia giao thông đường bộ trong các trường hợp sau đây:\nmục a) Báo hiệu cho người tham gia giao thông đường bộ khi xuất hiện tình huống có thể mất an toàn giao thông;\nmục b) Báo hiệu chuẩn bị vượt xe.",
+    "expect_response": "Chỉ dùng còi để cảnh báo nguy hiểm hoặc báo hiệu chuẩn bị vượt xe."
+  },
+  {
+    "input": "Tại nơi giao nhau không có vòng xuyến, nhường đường thế nào?",
+    "expect_retrieve": "khoản 2. Tại nơi đường giao nhau không có báo hiệu đi theo vòng xuyến, phải nhường đường cho xe đi đến từ bên phải;",
+    "expect_response": "Bạn phải nhường đường cho xe đi đến từ bên phải khi qua nơi giao nhau không có vòng xuyến."
+  },
+  {
+    "input": "Qua phà thứ tự ưu tiên cho xe là gì?",
+    "expect_retrieve": "khoản 2. Các xe qua phà, qua cầu phao theo thứ tự ưu tiên từ trên xuống dưới như sau:\nmục a) Xe ưu tiên;\nmục b) Xe chở thư báo;\nmục c) Xe chở thực phẩm tươi sống;\nmục d) Xe chở khách công cộng.",
+    "expect_response": "Xe ưu tiên trước, tiếp đến xe chở thư báo, xe chở thực phẩm tươi sống, rồi xe chở khách công cộng."
+  },
+  {
+    "input": "Đến đường ngang có đèn đỏ/chuông/cần chắn thì xử lý sao?",
+    "expect_retrieve": "khoản 1. Khi có hiệu lệnh của nhân viên gác chắn, đèn đỏ sáng nhấp nháy, chuông kêu, chắn đường bộ đang dịch chuyển hoặc đã đóng, người tham gia giao thông đường bộ phải dừng lại về bên phải đường của mình, trước vạch dừng xe.",
+    "expect_response": "Phải dừng về bên phải trước vạch dừng khi có nhân viên gác, đèn đỏ nhấp nháy, chuông kêu hoặc chắn đang/đã đóng."
+  },
+  {
+    "input": "Khi nhập làn vào đường cao tốc, tài xế cần làm gì?",
+    "expect_retrieve": "khoản 1. Người lái xe,người điều khiển xe máy chuyên dùngtrên đường cao tốc phải tuân thủ quy tắc giao thông đường bộ sau đây:\nmục a) Trước khi nhập vào làn đường của đường cao tốc phải có tín hiệu xin vào và phải nhường đường cho xe đang chạy trên đường, quan sát xe phía sau bảo đảm khoảng cách an toàn mới cho xe nhập vào làn đường sát bên phải, nếu có làn đường tăng tốc thì phải cho xe chạy trên làn đường đó trước khi nhập vào làn đường của đường cao tốc;",
+    "expect_response": "Bật tín hiệu xin vào, nhường xe đang chạy, quan sát phía sau, dùng làn tăng tốc (nếu có) rồi nhập làn sát bên phải."
+  },
+  {
+    "input": "Muốn ra khỏi cao tốc, phải chuyển làn thế nào cho đúng?",
+    "expect_retrieve": "khoản 1. Người lái xe,người điều khiển xe máy chuyên dùngtrên đường cao tốc phải tuân thủ quy tắc giao thông đường bộ sau đây:\nmục b) Khi chuẩn bị ra khỏi đường cao tốc phải quan sát biển báo hiệu chỉ dẫn, thực hiện chuyển dần sang làn đường sát bên phải, nếu có làn đường giảm tốc thì phải cho xe di chuyển trên làn đường đó trước khi ra khỏi đường cao tốc;",
+    "expect_response": "Quan sát biển chỉ dẫn, chuyển dần sang làn phải; nếu có làn giảm tốc thì đi vào làn đó trước khi rời cao tốc."
+  },
+  {
+    "input": "Có được chạy trên làn dừng khẩn cấp của cao tốc không?",
+    "expect_retrieve": "khoản 1. Người lái xe,người điều khiển xe máy chuyên dùngtrên đường cao tốc phải tuân thủ quy tắc giao thông đường bộ sau đây:\nmục c) Không được cho xe chạy ở làn dừng xe khẩn cấp và phần lề đường;",
+    "expect_response": "Không được. Làn dừng khẩn cấp và lề đường không dành để chạy xe."
+  },
+  {
+    "input": "Nếu xe gặp sự cố trên cao tốc và không kịp vào làn khẩn cấp thì báo hiệu thế nào?",
+    "expect_retrieve": "khoản 2. Chỉ được dừng xe, đỗ xe ở nơi quy định;trường hợpgặp sự cố kỹ thuật hoặc bất khả kháng khác buộc phải dừng xe, đỗ xe thì được dừng xe, đỗ xe ở làn dừng khẩn cấp cùng chiều xe chạy và phải có báo hiệu bằng đèn khẩn cấp; trường hợp xe không thể di chuyển được vào làn dừng khẩn cấp, phải có báo hiệu bằng đèn khẩn cấp và đặt biển hoặc đèn cảnh báo về phía sau xe khoảng cách tối thiểu 150 mét, nhanh chóng báo cho cơ quan Cảnh sát giao thông thực hiện nhiệm vụ bảo đảm trật tự, an toàn giao thông trên tuyến hoặc cơ quan quản lý đường cao tốc.",
+    "expect_response": "Bật đèn khẩn cấp và đặt biển/đèn cảnh báo phía sau tối thiểu 150m, đồng thời báo cho CSGT hoặc đơn vị quản lý cao tốc."
+  },
+  {
+    "input": "Trong hầm đường bộ, xe phải bật đèn chế độ nào?",
+    "expect_retrieve": "khoản 1. Xe cơ giới, xe máy chuyên dùng phải bật đèn chiếu gần; xe thô sơ phải bậtđèn hoặc có vật phát sáng báo hiệu;",
+    "expect_response": "Trong hầm, xe cơ giới bật đèn chiếu gần; xe thô sơ bật đèn hoặc có vật phát sáng báo hiệu."
+  },
+  {
+    "input": "Thứ tự ưu tiên của các xe ưu tiên qua giao lộ là gì?",
+    "expect_retrieve": "khoản 2. Xe ưu tiên được quyền đi trước xe khác khi qua đường giao nhau từ bất kỳ hướng nào tới theo thứ tự ưu tiên từ trên xuống dưới như sau:\nmục a) Xe chữa cháy của Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ và xe chữa cháy của các lực lượng khác được huy động đi làm nhiệm vụ chữa cháy;\nmục b) Xe của lực lượng quân sự, công an, kiểm sát đi làm nhiệm vụ khẩn cấp; đoàn xe có xe Cảnh sát giao thông dẫn đường;\nmục c) Xe cứu thương đi làm nhiệm vụ cấp cứu;\nmục d) Xe hộ đê đi làm nhiệm vụ; xe đi làm nhiệm vụ cứu nạn, cứu hộ, khắc phục sự cố thiên tai, dịch bệnh hoặc xe đi làm nhiệm vụ trong tình trạng khẩn cấp theo quy định của pháp luật;\nmục đ) Đoàn xe tang.",
+    "expect_response": "Thứ tự: chữa cháy; quân sự/công an/kiểm sát, đoàn có CSGT dẫn; cứu thương; hộ đê/cứu nạn; đoàn xe tang."
+  },
+  {
+    "input": "Màu đèn ưu tiên của các loại xe ưu tiên quy định thế nào?",
+    "expect_retrieve": "khoản 3. Xe ưu tiên quy định tại các điểm a, b, c và d khoản 2 Điều này phải có tín hiệu ưu tiên theo quy định của pháp luật. Màu của tín hiệu đèn ưu tiên được quy định như sau:\nmục a) Xe chữa cháy của Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ và xe chữa cháy của các lực lượng khác được huy động đi làm nhiệm vụ chữa cháy, xe của lực lượng quân sự đi làm nhiệm vụ khẩn cấp, xe cứu thương đang làm nhiệm vụ cấp cứu có đèn nhấp nháy màu đỏ;\nmục b) Xe của lực lượng công an, kiểm sát đi làm nhiệm vụ khẩn cấp, xe Cảnh sát giao thông dẫn đường có đèn nhấp nháy màu xanh và đỏ;\nmục c) Xe hộ đê đi làm nhiệm vụ; xe đi làm nhiệm vụ cứu nạn, cứu hộ, khắc phục sự cố thiên tai, dịch bệnh hoặc xe đi làm nhiệm vụ trong tình trạng khẩn cấp theo quy định của pháp luật có đèn nhấp nháy màu xanh.",
+    "expect_response": "Chữa cháy/quân sự/cứu thương: đèn nháy màu đỏ; công an/kiểm sát/CSGT dẫn đường: xanh và đỏ; hộ đê/cứu nạn: đèn nháy màu xanh."
+  },
+  {
+    "input": "Khi nào xe ưu tiên được phép đi ngược chiều hoặc bỏ qua đèn đỏ?",
+    "expect_retrieve": "khoản 4. Xe ưu tiên quy định tại các điểm a, b, c và d khoản 2 Điều này không bị hạn chế tốc độ; được phép đi không phụ thuộc vào tín hiệu đèn giao thông, đi vào đường ngược chiều, các đường khác có thể đi được; riêng đối với đường cao tốc, chỉ được đi ngược chiều trên làn dừng xe khẩn cấp; phải tuân theo hiệu lệnh của người điều khiển giao thông, biển báo hiệu tạm thời.",
+    "expect_response": "Xe ưu tiên có thể bỏ qua đèn đỏ, đi ngược chiều (trên cao tốc chỉ ở làn dừng khẩn cấp), nhưng vẫn phải tuân hiệu lệnh người điều khiển giao thông/biển tạm."
+  },
+  {
+    "input": "Xe tải thùng chở người khi nào là hợp lệ?",
+    "expect_retrieve": "khoản 1. Chỉ được chở người trên thùng xe ô tô chở hàng trong trường hợp sau đây:\nmục a) Chở người đi làm nhiệm vụ cứu nạn, cứu hộ, phòng, chống thiên tai, dịch bệnh hoặc thực hiện nhiệm vụ khẩn cấp khác theo quy định của pháp luật; chở người bị nạn đi cấp cứu; đưa người ra khỏi khu vực nguy hiểm hoặc trong trường hợp khẩn cấp khác theo quy định của pháp luật;\nmục b) Chở người thuộc lực lượng vũ trang nhân dân đi làm nhiệm vụ khẩn cấp;\nmục c) Chở người đi thực hành lái xe trên xe tập lái; chở người dự sát hạch lái xe trên xe sát hạch; chở công nhân đang làm nhiệm vụ duy tu, bảo dưỡng đường bộ;\nmục d) Chở người điều hành theo đoàn khi được cơ quan có thẩm quyền cho phép.",
+    "expect_response": "Chỉ trong các trường hợp đặc biệt như cứu nạn, nhiệm vụ khẩn cấp, tập lái/sát hạch, duy tu đường… theo liệt kê tại khoản 1 Điều 28."
+  },
+  {
+    "input": "Kéo xe ô tô bị hỏng cần tuân thủ điều kiện gì?",
+    "expect_retrieve": "khoản 1. Một xe ô tô chỉ được kéo theo một xe ô tô hoặc xe máy chuyên dùng khác khi xe được kéo không tự chạy được, trừ trường hợp quy định tạikhoản 3 Điều 53 của Luật nàyvà phải bảo đảm các quy định sau đây:\nmục a) Xe được kéo phải có người điều khiển và hệ thống lái của xe đó phải còn hiệu lực;\nmục b) Việc nối xe kéo với xe được kéo phải bảo đảm chắc chắn, an toàn; trường hợp hệ thống hãm của xe được kéo không còn hiệu lực thì xe kéo nhau phải nối bằng thanh nối cứng;\nmục c) Phía trước của xe kéo và phía sau của xe được kéo phải có biển báo hiệu, có đèn cảnh báo nhấp nháy màu vàng.",
+    "expect_response": "Xe bị kéo phải có người điều khiển, lái còn hiệu lực; nối chắc chắn (hãm hỏng thì dùng thanh nối cứng); xe kéo và xe được kéo phải có biển báo/đèn vàng nháy."
+  },
+  {
+    "input": "Xe kéo rơ moóc có được kéo thêm xe khác nữa không?",
+    "expect_retrieve": "khoản 3. Không được chở người trên xe được kéo, trừ người điều khiển; xe kéo rơ moóc, xe ô tô đầu kéo kéo sơ mi rơ moóc không được kéo thêm rơ moóc, sơ mi rơ moóc hoặc xe khác.",
+    "expect_response": "Không. Xe kéo rơ moóc hoặc đầu kéo kéo sơ mi rơ moóc không được kéo thêm bất kỳ rơ moóc, sơ mi rơ moóc hay xe nào khác."
+  },
+  {
+    "input": "Người đi bộ được phép băng qua đường ở đâu?",
+    "expect_retrieve": "khoản 1. Người đi bộ phải tuân thủ các quy định sau đây:\nmục b) Chỉ được qua đường ở những nơi có đèn tín hiệu, có vạch kẻ đường hoặc có cầu vượt, hầm dành cho người đi bộ và phải tuân thủ tín hiệu chỉ dẫn, báo hiệu đường bộ. Trường hợp không có đèn tín hiệu, vạch kẻ đường, cầu vượt, hầm dành cho người đi bộ thì phải quan sát các xe đang đi tới, chỉ qua đường khi bảo đảm an toàn, khi qua đường phải có tín hiệu bằng tay;",
+    "expect_response": "Đi đúng nơi quy định (đèn, vạch, cầu vượt, hầm). Nếu không có, phải quan sát và chỉ qua khi an toàn, có ra hiệu bằng tay."
+  },
+  {
+    "input": "Xe đạp chở được tối đa mấy người?",
+    "expect_retrieve": "khoản 1. Người điều khiển xe đạp, xe đạp máy chỉ được chở một người, trừ trường hợp chở thêm một trẻ em dưới 07 tuổi thì được chở tối đa hai người.",
+    "expect_response": "Xe đạp/xe đạp máy chỉ chở 1 người; nếu chở thêm trẻ dưới 7 tuổi thì tối đa 2 người."
+  },
+  {
+    "input": "Đi xe đạp máy có phải đội mũ bảo hiểm không?",
+    "expect_retrieve": "khoản 3. Người điều khiển, người được chở trên xe đạp máy phải đội mũ bảo hiểm theo đúng quy chuẩn kỹ thuật quốc gia và cài quai đúng quy cách.",
+    "expect_response": "Có. Cả người lái và người ngồi xe đạp máy đều phải đội mũ đạt chuẩn và cài quai đúng."
+  },
+  {
+    "input": "Người đi mô tô, xe máy cần đội mũ bảo hiểm thế nào?",
+    "expect_retrieve": "khoản 2. Người lái xe, người được chở trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy phải đội mũ bảo hiểm theo đúng quy chuẩn kỹ thuật quốc gia và cài quai đúng quy cách.",
+    "expect_response": "Người lái và người ngồi sau trên mô tô/xe máy phải đội mũ đạt chuẩn và cài quai đúng cách."
+  },
+  {
+    "input": "Những hành vi nào bị cấm khi điều khiển mô tô, xe máy?",
+    "expect_retrieve": "khoản 3. Người lái xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy không được thực hiện các hành vi sau đây:\nmục a) Đi xe dàn hàng ngang;\nmục b) Đi xe vào phần đường dành cho người đi bộ và phương tiện khác;\nmục c) Sử dụng ô, thiết bị âm thanh, trừ thiết bị trợ thính;\nmục d) Buông cả hai tay; đi xe bằng một bánh đối với xe mô tô, xe gắn máy hai bánh; đi xe bằng hai bánh đối với xe mô tô, xe gắn máy ba bánh;\nmục đ) Sử dụng xe để kéo, đẩy xe khác, vật khác, dẫn dắt vật nuôi, mang, vác và chở vật cồng kềnh; chở người đứng trên xe, giá đèo hàng hoặc ngồi trên tay lái; xếp hàng hóa trên xe quá giới hạn quy định;\nmục e) Ngồi về một bên điều khiển xe; đứng, nằm trên xe điều khiển xe; thay người lái xe khi xe đang chạy; quay người về phía sau để điều khiển xe hoặc bịt mắt điều khiển xe; sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy;\nmục g) Hành vi khác gây mất trật tự, an toàn giao thông đường bộ.",
+    "expect_response": "Cấm dàn hàng ngang, đi vào phần đường người đi bộ, dùng ô/loa, bốc đầu, chở cồng kềnh, đứng/nằm/quay người khi lái… theo liệt kê tại khoản 3 Điều 33."
+  },
+  {
+    "input": "Thế nào là xe gắn máy theo phân loại phương tiện?",
+    "expect_retrieve": "mục g) Xe gắn máy là xe có hai hoặc ba bánh chạy bằng động cơ, được thiết kế, sản xuất để hoạt động trên đường bộ, có vận tốc thiết kế không lớn hơn 50 km/h; nếu động cơ dẫn động là động cơ nhiệt thì dung tích làm việc hoặc dung tích tương đương không lớn hơn 50 cm3; nếu động cơ dẫn động là động cơ điện thì công suất của động cơ không lớn hơn 04 kW; xe gắn máy không bao gồm xe đạp máy;",
+    "expect_response": "Xe gắn máy: 2-3 bánh, tốc độ thiết kế ≤ 50 km/h; động cơ nhiệt ≤ 50 cm3 hoặc điện ≤ 4 kW; không bao gồm xe đạp máy."
+  },
+  {
+    "input": "Xe kinh doanh vận tải cần lắp thiết bị gì để giám sát tài xế?",
+    "expect_retrieve": "khoản 2. Xe ô tô kinh doanh vận tải phải lắp thiết bị giám sát hành trình. Xe ô tô chở người từ 08 chỗ trở lên (không kể chỗ của người lái xe) kinh doanh vận tải, xe ô tô đầu kéo, xe cứu thương phải lắp thiết bị giám sát hành trình và thiết bị ghi nhận hình ảnh người lái xe.",
+    "expect_response": "Xe kinh doanh phải có thiết bị giám sát hành trình; xe từ 8 chỗ trở lên, đầu kéo, cứu thương còn phải có camera ghi hình người lái."
+  },
+  {
+    "input": "Biển số nền vàng dùng cho xe nào?",
+    "expect_retrieve": "mục c) Biển số xe nền màu vàng, chữ và số màu đen cấp cho xe hoạt động kinh doanh vận tải;",
+    "expect_response": "Biển nền vàng (chữ/số đen) cấp cho xe hoạt động kinh doanh vận tải."
+  },
+  {
+    "input": "Giá khởi điểm đấu giá biển số ô tô tối thiểu bao nhiêu?",
+    "expect_retrieve": "khoản 2. Giá khởi điểm của một biển số xe ô tô đưa ra đấu giá không thấp hơn 40 triệu đồng; giá khởi điểm một biển số xe mô tô, xe gắn máy đưa ra đấu giá không thấp hơn 05 triệu đồng.",
+    "expect_response": "Biển số ô tô: không thấp hơn 40 triệu đồng; mô tô/gắn máy: không thấp hơn 5 triệu đồng."
+  },
+  {
+    "input": "Muốn đăng ký xe, cần có những giấy tờ gốc nào?",
+    "expect_retrieve": "khoản 1. Việc cấp mới chứng nhận đăng ký xe và biển số xe cơ giới, xe máy chuyên dùng phải bảo đảm các điều kiện sau đây:\nmục a) Chứng nhận nguồn gốc xe;\nmục b) Chứng nhận quyền sở hữu hợp pháp;\nmục c) Chứng từ hoàn thành nghĩa vụ tài chính.",
+    "expect_response": "Cần chứng nhận nguồn gốc xe, chứng nhận quyền sở hữu hợp pháp và chứng từ hoàn thành nghĩa vụ tài chính."
+  },
+  {
+    "input": "Niên hạn sử dụng của xe cơ giới được tính từ khi nào?",
+    "expect_retrieve": "khoản 1. Niên hạn sử dụng của xe cơ giới được tính bắt đầu từ năm sản xuất xe đến hết ngày 31 tháng 12 của năm hết niên hạn sử dụng.",
+    "expect_response": "Tính từ năm sản xuất cho đến hết ngày 31/12 của năm kết thúc niên hạn."
+  },
+  {
+    "input": "Ai quy định lộ trình áp dụng tiêu chuẩn khí thải cho ô tô?",
+    "expect_retrieve": "khoản 6. Thủ tướng Chính phủ quy định lộ trình áp dụng mức tiêu chuẩn khí thải đối với xe cơ giới nhập khẩu, sản xuất, lắp ráp.",
+    "expect_response": "Thủ tướng Chính phủ quy định lộ trình áp dụng tiêu chuẩn khí thải cho xe cơ giới."
+  },
+  {
+    "input": "Xe mô tô chỉ kiểm định khí thải, đúng không?",
+    "expect_retrieve": "khoản 2. Việc kiểm định đối với xe mô tô, xe gắn máy chỉ thực hiện kiểm định khí thải. Việc kiểm định khí thải thực hiện theo quy định của pháp luật về bảo vệ môi trường được thực hiện tại các cơ sở kiểm định khí thải đáp ứng quy chuẩn kỹ thuật quốc gia.",
+    "expect_response": "Đúng. Xe mô tô/xe gắn máy chỉ kiểm định khí thải theo quy định môi trường, tại cơ sở đạt chuẩn."
+  },
+  {
+    "input": "Trung tâm đăng kiểm chịu trách nhiệm gì với kết quả kiểm định?",
+    "expect_retrieve": "khoản Cơ sở đăng kiểm chịu trách nhiệm về kết quả kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe cơ giới, xe máy chuyên dùng; từ chối kiểm định phương tiện vi phạmkhi chủ phương tiện chưa thực hiện xong yêu cầu của cơ quan nhà nước có thẩm quyền về giải quyết vụ việc vi phạm hành chínhtrong lĩnh vực trật tự, an toàn giao thông đường bộ.",
+    "expect_response": "Cơ sở đăng kiểm chịu trách nhiệm về kết quả kiểm định và được quyền từ chối kiểm định nếu chủ xe chưa chấp hành xong quyết định xử lý vi phạm hành chính liên quan."
+  },
+  {
+    "input": "Xe buýt trong đô thị phải tuân thủ những gì?",
+    "expect_retrieve": "khoản 1. Xe buýt, xe chở người bốn bánh có gắn động cơ phải hoạt động đúng tuyến, đúng lịch trình, thời gian được phép hoạt động và dừng xe, đỗ xe đúng nơi quy định.",
+    "expect_response": "Xe buýt phải chạy đúng tuyến, đúng lịch trình/thời gian cho phép và dừng đỗ đúng nơi quy định."
+  },
+  {
+    "input": "Xe khách có được chở hàng có mùi hôi hoặc động vật hoang dã không?",
+    "expect_retrieve": "khoản 1. Việc vận chuyển hành khách bằng xe ô tô phải tuân thủ các quy định sau đây:\nmục d) Không chở hàng hóa nguy hiểm, hàng hóa cấm lưu hành, hàng lậu, động vật hoang dã, hàng có mùi hôi thối hoặc động vật, hàng hóa khác có ảnh hưởng đến sức khỏe của hành khách, môi trường;",
+    "expect_response": "Không được. Xe khách bị cấm chở hàng nguy hiểm, cấm lưu hành, động vật hoang dã, hàng có mùi hôi…"
+  },
+  {
+    "input": "Xe đưa đón mầm non/tiểu học phải có trang bị gì cho trẻ?",
+    "expect_retrieve": "khoản 1. Xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh phải đáp ứng các yêu cầu sau đây:\nmục b) Xe ô tô chở trẻ em mầm non hoặc học sinh tiểu học phải có dây đai an toàn phù hợp với lứa tuổi hoặc sử dụng xe có ghế ngồi phù hợp với lứa tuổi theo quy định của pháp luật.",
+    "expect_response": "Phải có dây đai an toàn phù hợp lứa tuổi hoặc ghế ngồi phù hợp cho trẻ mầm non/tiểu học."
+  },
+  {
+    "input": "Xe bốn bánh gắn động cơ chở khách phải niêm yết gì?",
+    "expect_retrieve": "khoản 1. Xe bốn bánh có gắn động cơ vận chuyển hành khách, hàng hóa phải đáp ứng các yêu cầu sau đây:\nmục b) Niêm yết tên và số điện thoại của tổ chức, cá nhân kinh doanh vận tải; niêm yết giá cước vận tải đối với vận chuyển hành khách;",
+    "expect_response": "Phải niêm yết tên, số điện thoại đơn vị kinh doanh; và niêm yết giá cước khi chở khách."
+  },
+  {
+    "input": "Chở vật liệu rời trên xe tải cần che chắn như thế nào?",
+    "expect_retrieve": "khoản 1. Khi vận chuyển hàng hoá bằng xe ô tô, người lái xe phải thực hiện các quy định sau đây:\nmục đ) Khi vận chuyển hàng rời, vật liệu xây dựng, phế thải phải che đậy kín, không để rơi vãi xuống đường, gây ra tiếng ồn hoặc bụi bẩn trong suốt quá trình vận chuyển trên đường và chiều cao tối đa của hàng hoá phải thấp hơn mép trên thành thùng xe tối thiểu 10 cm;",
+    "expect_response": "Phải che đậy kín, không rơi vãi/gây bụi ồn; hàng không được cao vượt mép thùng, phải thấp hơn tối thiểu 10cm."
+  },
+  {
+    "input": "Khi vận chuyển động vật sống, phương tiện cần yêu cầu gì?",
+    "expect_retrieve": "khoản 1. Việc vận chuyển động vật sống phải bảo đảm các yêu cầu sau đây:\nmục b) Phương tiện vận chuyển phải có kết cấu phù hợp với loại động vật chuyên chở;",
+    "expect_response": "Xe phải có kết cấu phù hợp với loại động vật được chở."
+  },
+  {
+    "input": "Chở hàng nguy hiểm trên đường bộ có cần giấy phép không?",
+    "expect_retrieve": "khoản 2.Việcvận chuyển hàng hoá nguy hiểm phải có giấy phép vận chuyển; trong trường hợp cần thiết, đơn vị vận chuyển hàng hoá nguy hiểm phải bố trí người áp tải để bảo đảm trật tự, an toàn giao thông đường bộ.",
+    "expect_response": "Có. Phải có giấy phép vận chuyển; khi cần thiết phải bố trí người áp tải."
+  },
+  {
+    "input": "Xe quá khổ, quá tải muốn chở hàng thì cần điều kiện gì?",
+    "expect_retrieve": "khoản 3. Xe quá khổ giới hạn, xe quá tải trọng, xe bánh xích được cấp giấy phép lưu hành xe trên đường bộ trong các trường hợp sau đây:\nmục b) Lưu hành xe quá khổ giới hạn, xe quá tải trọng để chở hàng hoá trên đường bộ trong các trường hợp: phục vụ nhiệm vụ quốc phòng, an ninh; phòng, chống, khắc phục hậu quả thiên tai; thực hiện nhiệm vụ trong trường hợp khẩn cấp; chở hàng siêu trường, siêu trọng khi các phương thức vận chuyển hàng hoá bằng đường sắt, đường thuỷ nội địa, hàng không, hàng hải không phù hợp hoặc phải kết hợp phương thức vận tải đường bộ với phương thức vận tải khác;",
+    "expect_response": "Phải có giấy phép lưu hành và chỉ trong các trường hợp được liệt kê (quốc phòng, thiên tai, khẩn cấp, hàng siêu trường/siêu trọng...)."
+  },
+  {
+    "input": "Hàng siêu trường, siêu trọng được phép ghép tổ hợp xe như thế nào?",
+    "expect_retrieve": "khoản 3. Xe vận chuyển hàng siêu trường, siêu trọng được phép ghép, nối thành tổ hợp nhiều xe gồm xe ô tô đầu kéo, xe ô tô kéo rơ moóc để kéo hoặc vừa kéo vừa đẩy các rơ moóc, sơ mi rơ moóc chuyên dùng, rơ moóc kiểu mô đun, bao gồm cả trường hợp ghép nối thông qua hàng được chở.",
+    "expect_response": "Được ghép nối thành tổ hợp nhiều xe (đầu kéo, rơ moóc, sơ mi rơ moóc, mô đun…), kể cả ghép qua hàng chở, theo quy định."
+  },
+  {
+    "input": "Xe cứu hộ giao thông là loại xe gì?",
+    "expect_retrieve": "khoản 1. Xe cứu hộ giao thông đường bộ là xe ô tô chuyên dùng có trang bị dụng cụ, thiết bị dùng để cứu hộ, hỗ trợ di chuyển hoặc chuyên chở các phương tiện giao thông đường bộ bị hư hỏng, bị sự cố.",
+    "expect_response": "Là ô tô chuyên dùng có thiết bị cứu hộ, hỗ trợ di chuyển/chuyên chở phương tiện bị hư hỏng, sự cố."
+  },
+  {
+    "input": "Xe tay lái nghịch (tay lái bên phải) của nước ngoài vào Việt Nam cần điều kiện gì?",
+    "expect_retrieve": "khoản 3. Việc lưu hành xe ô tô của người nước ngoài đăng ký tại nước ngoài có tay lái ở bên phải tham gia giao thông tại Việt Nam, xe cơ giới nước ngoài do người nước ngoài đưa vào Việt Nam du lịch được quy định như sau:\nmục c) Xe ô tô của người nước ngoài đăng ký tại nước ngoài có tay lái ở bên phải phải đi theo đoàn và có người, phương tiện hỗ trợ, hướng dẫn giao thông;",
+    "expect_response": "Xe tay lái nghịch phải đi theo đoàn và có người/phương tiện hỗ trợ, hướng dẫn giao thông."
+  },
+  {
+    "input": "Người lái ô tô cần mang theo giấy tờ gì về bảo hiểm?",
+    "expect_retrieve": "mục d) Chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự của chủ xe cơ giới.",
+    "expect_response": "Phải mang theo chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự của chủ xe cơ giới."
+  },
+  {
+    "input": "Giấy phép lái xe hạng B được lái xe gì?",
+    "expect_retrieve": "mục d) Hạng B cấp cho người lái xe ô tô chở người đến 08 chỗ (không kể chỗ của người lái xe); xe ô tô tải và ô tô chuyên dùng có khối lượng toàn bộ theo thiết kế đến 3.500 kg; các loại xe ô tô quy định cho giấy phép lái xe hạng B kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg;",
+    "expect_response": "Hạng B được lái xe chở đến 8 chỗ, ô tô tải/chuyên dùng ≤ 3.500 kg, và được kéo rơ moóc ≤ 750 kg."
+  },
+  {
+    "input": "Hệ thống trừ điểm GPLX có bao nhiêu điểm ban đầu?",
+    "expect_retrieve": "khoản 1. Điểm của giấy phép lái xe được dùng để quản lý việc chấp hành pháp luật về trật tự, an toàn giao thông đường bộ của người lái xe trên hệ thống cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ, bao gồm 12 điểm. Số điểm trừ mỗi lần vi phạm tuỳ thuộc tính chất, mức độ của hành vi vi phạm pháp luật về trật tự, an toàn giao thông đường bộ.",
+    "expect_response": "Mỗi GPLX có 12 điểm. Khi vi phạm sẽ bị trừ điểm tùy mức độ hành vi."
+  },
+  {
+    "input": "Bao nhiêu tuổi thì được phép điều khiển xe gắn máy?",
+    "expect_retrieve": "mục a) Người đủ 16 tuổi trở lên được điều khiển xe gắn máy;",
+    "expect_response": "Từ đủ 16 tuổi trở lên được điều khiển xe gắn máy."
+  },
+  {
+    "input": "Người học lái xe muốn được cấp GPLX cần phải học ở đâu?",
+    "expect_retrieve": "khoản 2. Người học lái xe phải được đào tạo tại các cơ sở đào tạo lái xe ô tô hoặc các hình thức đào tạo lái xe khác để cấp mới hoặc nâng hạng giấy phép lái xe.",
+    "expect_response": "Phải được đào tạo tại cơ sở đào tạo lái xe (hoặc hình thức hợp lệ khác) trước khi được cấp mới/nâng hạng GPLX."
+  },
+  {
+    "input": "Sát hạch lái xe ô tô tổ chức ở đâu?",
+    "expect_retrieve": "khoản 3. Hoạt động sát hạch lái xe ô tô phải thực hiện tại các trung tâm sát hạch lái xe; hoạt động sát hạch lái xe mô tô thực hiện tại các trung tâm sát hạch lái xe hoặc tại sân tập lái đáp ứng điều kiện, tiêu chuẩn về cơ sở vật chất, kỹ thuật.",
+    "expect_response": "Sát hạch lái xe ô tô tổ chức tại trung tâm sát hạch; mô tô tại trung tâm hoặc sân tập đủ điều kiện."
+  },
+  {
+    "input": "Khi nào thì không được cấp/đổi/cấp lại GPLX?",
+    "expect_retrieve": "khoản 4. Chưa cấp, đổi, cấp lại giấy phép lái xe đối với người vi phạm pháp luật về trật tự, an toàn giao thông đường bộ khi người đó chưa thực hiện xong yêu cầu của cơ quan nhà nước có thẩm quyền về giải quyết vụ việc vi phạm hành chính trong lĩnh vực trật tự, an toàn giao thông đường bộ.",
+    "expect_response": "Khi chưa chấp hành xong quyết định xử lý vi phạm hành chính liên quan giao thông đường bộ thì chưa được cấp/đổi/cấp lại GPLX."
+  },
+  {
+    "input": "Chứng chỉ bồi dưỡng kiến thức pháp luật giao thông dùng cho ai?",
+    "expect_retrieve": "khoản 1. Chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ là giấy chứng nhận cấp cho người có đủ điều kiện theo quy định của pháp luật để điều khiển xe máy chuyên dùng tham gia giao thông đường bộ.",
+    "expect_response": "Dành cho người điều khiển xe máy chuyên dùng khi đáp ứng đủ điều kiện theo luật."
+  },
+  {
+    "input": "Một tài xế xe khách được lái tối đa bao lâu trong ngày?",
+    "expect_retrieve": "khoản 1. Thời gian lái xe của người lái xe ô tô không quá 10 giờ trong một ngày và không quá 48 giờ trong một tuần; lái xe liên tục không quá 04 giờ và bảo đảm các quy định có liên quan củaBộ luật Lao động.",
+    "expect_response": "Tối đa 10 giờ/ngày, 48 giờ/tuần và không lái liên tục quá 4 giờ."
+  },
+  {
+    "input": "CSGT có thể dừng xe trong trường hợp nào?",
+    "expect_retrieve": "khoản 1. Khi phát hiện hành vi vi phạm pháp luật hoặc có căn cứ xác định có hành vi vi phạm pháp luật về trật tự, an toàn giao thông đường bộ hoặc vi phạm pháp luật khác;",
+    "expect_response": "Khi phát hiện hoặc có căn cứ xác định có hành vi vi phạm pháp luật về giao thông (hoặc vi phạm khác), CSGT được quyền dừng xe kiểm tra."
+  },
+  {
+    "input": "Ngoài tuần tra trực tiếp, vi phạm giao thông còn được phát hiện qua phương tiện nào?",
+    "expect_retrieve": "khoản 1. Vận hành, sử dụng hệ thống giám sát bảo đảm an ninh, trật tự, an toàn giao thông đường bộ; hệ thống camera trên tuyến giao thông, trong đô thị; công trình, hệ thống thiết bị kỹ thuật nghiệp vụ kiểm tra, kiểm soát tải trọng xe cơ giới.",
+    "expect_response": "Qua hệ thống camera giám sát, thiết bị kiểm soát tải trọng và các hệ thống giám sát an ninh trật tự giao thông."
+  },
+  {
+    "input": "Trong tình huống cấp bách, CSGT có quyền huy động người và phương tiện dân sự không?",
+    "expect_retrieve": "khoản 1.Khi thực hiện nhiệm vụ tuần tra, kiểm soát, chỉ huy, điều khiển giao thông đường bộ, giải quyết tai nạn giao thông đường bộ, trong trường hợp ca5pbe1ch11c ba3o vc an ninh quốc gia, bảo đảm trật tự, an toàn xã hội hoặc để ngăn chặn hậu quả thiệt hại cho xã hội đang xảy ra hoặc có nguy cơ xảy ra, người chỉ huy trực tiếp của Cảnh sát giao thông tại hiện trường được huy động người, phương tiện, thiết bị dân sựvà người đang sử dụng, điều khiển phương tiện, thiết bị đó.",
+    "expect_response": "Có. Trong tình huống cấp bách, chỉ huy CSGT tại hiện trường được quyền huy động người, phương tiện, thiết bị dân sự để ứng phó."
+  },
+  {
+    "input": "Xe đỗ gây cản trở giao thông mà chủ xe vắng mặt, CSGT xử lý thế nào?",
+    "expect_retrieve": "khoản 1. Khi phát hiện phương tiện giao thông đường bộvi phạm quy định dừng, đỗ trên đường bộ gây cản trở, ùn tắc giao thông hoặc nguy cơ dẫn đến tai nạn giao thông đường bộ nhưng người điều khiển phương tiện tham gia giao thông đường bộ, chủ phương tiện giao thông đường bộ không có mặt tại nơi xảy ra vi phạm hoặc có mặt nhưng không chấp hành yêu cầu của Cảnh sát giao thông thì Cảnh sát giao thông thực hiện việc di chuyển phươngtiện vi phạm ra khỏi vị trí dừng, đỗ trên.",
+    "expect_response": "CSGT được di chuyển phương tiện vi phạm ra khỏi vị trí dừng/đỗ gây cản trở nếu chủ xe không có mặt hoặc không chấp hành."
+  },
+  {
+    "input": "Lực lượng CSGT được trang bị những phương tiện gì khi làm nhiệm vụ?",
+    "expect_retrieve": "khoản 1. Lực lượng Cảnh sát giao thông được trang bị vũ khí, công cụ hỗ trợ theo quy định của pháp luật về quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ; phương tiện giao thông đường bộ, phương tiện, thiết bị kỹ thuật nghiệp vụ, thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ.",
+    "expect_response": "CSGT được trang bị vũ khí, công cụ hỗ trợ, phương tiện giao thông, thiết bị kỹ thuật nghiệp vụ và thiết bị thông minh hỗ trợ chỉ huy/điều khiển giao thông."
+  },
+  {
+    "input": "Dữ liệu từ camera giám sát giao thông được sử dụng như thế nào?",
+    "expect_retrieve": "mục c) Dữ liệu thu thập được từ hệ thống giám sát bảo đảm an ninh, trật tự, an toàn giao thông đường bộ phải được quản lý theo quy định của pháp luật; bảo đảm các yêu cầu về bảo vệ dữ liệu cá nhân, bảo vệ các quyền và lợi ích hợp pháp của cá nhân và tổ chức; được sử dụng để xử lý vi phạm pháp luật về trật tự, an toàn giao thông đường bộ, vi phạm pháp luật khác và phục vụ công tác quản lý nhà nước.",
+    "expect_response": "Dữ liệu phải được quản lý đúng luật, bảo vệ dữ liệu cá nhân và có thể dùng để xử lý vi phạm, phục vụ quản lý nhà nước."
+  },
+  {
+    "input": "Người lái xe có quyền yêu cầu CSGT thông báo lý do dừng xe không?",
+    "expect_retrieve": "mục b) Được thông báo về căn cứ dừng phương tiện tham gia giao thông đường bộ để kiểm tra, kiểm soát; nội dung và kết quả kiểm tra, kiểm soát; hành vi vi phạm pháp luật và biện pháp xử lý;",
+    "expect_response": "Có. Người lái xe có quyền được thông báo căn cứ dừng xe, nội dung/kết quả kiểm tra và biện pháp xử lý nếu có."
+  }
+  ,
+  {
+    "input": "Ông chủ Công ty Thái Dương thừa nhận đã bán số quặng trị giá khoảng bao nhiêu?",
+    "expect_retrieve": "Hôm nay, trong ngày tòa thẩm vấn đầu tiên, ông Huấn khóc khi thừa nhận đã chỉ đạo khai thác trái phép hơn 864 tỷ đồng và đã bán 736 tỷ đồng quặng đất hiếm và quặng sắt.",
+    "expect_response": "Ông thừa nhận đã bán khoảng 736 tỷ đồng quặng đất hiếm và quặng sắt."
+  },
+  {
+    "input": "Công ty Thái Dương bị cáo buộc xả trái phép bao nhiêu tấn chất thải ra môi trường?",
+    "expect_retrieve": "Trong tộiGây ô nhiễm môi trường, ông Huấn bị cáo buộc đã chỉ đạo nhân viên xả trái phép hơn 350.000 tấn chất thải ra môi trường, trong đó thải thạch cao 2.425 tấn và bùn thải quặng 348.770 tấn.",
+    "expect_response": "Hơn 350.000 tấn chất thải (trong đó khoảng 2.425 tấn thạch cao và 348.770 tấn bùn thải quặng)."
+  },
+  {
+    "input": "Sản phẩm tổng oxit đất hiếm tại nhà máy của Thái Dương đạt độ sạch bao nhiêu so với yêu cầu?",
+    "expect_retrieve": "tạo ra sản phẩm là tổng oxit đất hiếm có độ sạch 18-20%, trong khi giấy phép yêu cầu độ sạch tới 99,9%.",
+    "expect_response": "Chỉ 18-20% thay vì mức 99,9% theo yêu cầu."
+  },
+  {
+    "input": "Ở Quế Sơn, người vợ đã làm gì khiến chồng bị thương nặng?",
+    "expect_retrieve": "Khoảng 23h30 ngày 10/5, trong cơn tức giận, Hoài dùng dao đâm vào vùng cổ của chồng.",
+    "expect_response": "Chị này dùng dao đâm vào vùng cổ của chồng."
+  },
+  {
+    "input": "Sau khi gây án, Nguyễn Thị Hoài đã làm gì?",
+    "expect_retrieve": "Chừng 30 phút sau gây án, Hoài chạy xe máy đến trụ sở Công an xã Quế Xuân 2 tự thú.",
+    "expect_response": "Khoảng 30 phút sau, chị chạy xe đến công an xã để tự thú."
+  },
+  {
+    "input": "Trong vụ cầu Vĩnh Tuy 2, bao nhiêu cá nhân của Ban quản lý dự án Hà Nội đã nhận tiền và tổng cộng là bao nhiêu?",
+    "expect_retrieve": "Cụ thể, 13 cá nhân tại Ban quản lý dự án Hà Nội đã nhận tổng cộng hơn 12 tỷ đồng.",
+    "expect_response": "Có 13 cá nhân nhận hơn 12 tỷ đồng."
+  },
+  {
+    "input": "Ông Phạm Hoàng Tuấn được cho là đã nhận bao nhiêu tiền trong vụ Vĩnh Tuy 2?",
+    "expect_retrieve": "Ông Tuấn nhận 2 tỷ đồng, Phó ban Nguyễn Chí Cường 2 tỷ đồng, Giám đốc Ban quản lý dự án Phạm Văn Duân 2,32 tỷ đồng, một số Trưởng, Phó phòng nhận từ 1,1 đến 1,7 tỷ đồng.",
+    "expect_response": "Ông Tuấn bị cáo buộc nhận khoảng 2 tỷ đồng."
+  },
+  {
+    "input": "C03 kết luận ông Nguyễn Duy Hưng đã lợi dụng điều gì để trúng thầu?",
+    "expect_retrieve": "C03 kết luận, ông Hưng đã lợi dụng mối quan hệ cá nhân và hình ảnh gây ảnh hưởng của lãnh đạo cấp trên, để từ đó thực hiện các chuỗi hành vi trên.",
+    "expect_response": "Ông bị cho là lợi dụng quan hệ cá nhân và hình ảnh gây ảnh hưởng của lãnh đạo cấp trên."
+  },
+  {
+    "input": "Cựu Phó chủ nhiệm Văn phòng Quốc hội Phạm Thái Hà bị cáo buộc nhận tổng cộng bao nhiêu tiền?",
+    "expect_retrieve": "Ông Phạm Thái Hà, cựu Phó chủ nhiệm Văn phòng Quốc hội, cựu trợ lý của nguyên Chủ tịch Quốc hội, bị cáo buộc nhận 750 triệu đồng sau khi \"tác động\" giúp Thuận An trúng thầu tại cầu Đồng Việt.",
+    "expect_response": "Khoảng 750 triệu đồng."
+  },
+  {
+    "input": "Cựu Bí thư Bắc Giang được Hưng \"cảm ơn\" bao nhiêu sau khi trúng thầu?",
+    "expect_retrieve": "Sau khi Thuận An trúng thầu, ông Thái được Hưng cảm ơn 900 triệu đồng.",
+    "expect_response": "Khoảng 900 triệu đồng."
+  },
+  {
+    "input": "Quách Ngọc Giao bị tuyên phạt bao nhiêu năm tù và tiền phạt bổ sung?",
+    "expect_retrieve": "Ngày 12/5, Giao bị TAND TP HCM tuyên phạt 16 năm 6 tháng tù về tộiSản xuất, buôn bán hàng giả là thuốc chữa bệnh, thuốc phòng bệnh;phạt thêm 50 triệu đồng.",
+    "expect_response": "16 năm 6 tháng tù và phạt bổ sung 50 triệu đồng."
+  },
+  {
+    "input": "Đường dây thuốc giả đã in bao bì giả của những loại thuốc nào?",
+    "expect_retrieve": "in hộp thuốc, tờ hướng dẫn sử dụng các loại thuốc giả hiệu Fugacar Janssen 500mg (thuốc tẩy giun), Becozyme, Laroscorbine, Neo-Tergynan và nhiều loại khác",
+    "expect_response": "Fugacar Janssen 500mg, Becozyme, Laroscorbine, Neo‑Tergynan và nhiều loại khác."
+  },
+  {
+    "input": "Tòa phúc thẩm Trùng Khánh kết luận ai phải chịu trách nhiệm chứng minh lỗi của chiếc BMW?",
+    "expect_retrieve": "vì Giang phát hiện chiếc xe có \"lỗi\" trong vòng 6 tháng sau khi mua nên Khánh Đức Bảo phải chịu trách nhiệm chứng minh \"lỗi\" đó.",
+    "expect_response": "Phía Khánh Đức Bảo phải chứng minh xe không có lỗi."
+  },
+  {
+    "input": "Kết quả xử phúc thẩm vụ BMW cuối cùng thế nào?",
+    "expect_retrieve": "vì thế, tòa phúc thẩm bác đơn kháng cáo và giữ nguyên phán quyết sơ thẩm.",
+    "expect_response": "Bác kháng cáo và giữ nguyên án sơ thẩm."
+  },
+  {
+    "input": "Nữ giáo viên từng đạt danh hiệu gì trước khi bị kết án 30 năm tù?",
+    "expect_retrieve": "Jacqueline từng nhận danh hiệu \"Giáo viên của năm\" của hạt San Diego, California vào cuối 2022",
+    "expect_response": "Cô từng là \"Giáo viên của năm\" ở hạt San Diego."
+  },
+  {
+    "input": "Nạn nhân đầu tiên trong vụ giáo viên ở Mỹ bao nhiêu tuổi?",
+    "expect_retrieve": "mẹ của một nam sinh 12 tuổi trình báo",
+    "expect_response": "Khoảng 12 tuổi."
+  },
+  {
+    "input": "Pơ Loong Thảo trốn truy nã bao lâu trước khi bị bắt lại?",
+    "expect_retrieve": "sau hơn 10 năm trốn truy nã về hành viMua bán người, mua bán trẻ em.",
+    "expect_response": "Hơn 10 năm."
+  },
+  {
+    "input": "Pơ Loong Thảo bị bắt ở đâu sau nhiều năm lẩn trốn?",
+    "expect_retrieve": "bắt Thảo tại phường Cao Thắng, TP Hạ Long.",
+    "expect_response": "Tại phường Cao Thắng, TP Hạ Long."
+  },
+  {
+    "input": "Tổng mức hình phạt mới của ông Lê Đức Thọ sau phúc thẩm là bao nhiêu năm?",
+    "expect_retrieve": "Tổng hợp hình phạt, bị cáo phải chấp hành hình phạt chung là 21 năm tù (sơ thẩm 28 năm).",
+    "expect_response": "21 năm tù."
+  },
+  {
+    "input": "Ông Lê Đức Thọ đã nhận hối lộ tổng cộng bao nhiêu USD trong một giai đoạn?",
+    "expect_retrieve": "ông Lê Đức Thọ đã hai lần nhận hối lộ, tổng 600.000 USD",
+    "expect_response": "Khoảng 600.000 USD."
+  },
+  {
+    "input": "Kẻ giả gái chích điện ở Phú Quốc bị bắt ở đâu?",
+    "expect_retrieve": "Hòa, 40 tuổi, bị bắt giữ ở bìa rừng thuộc ấp Đường Bào, xã Dương Tơ;",
+    "expect_response": "Ở bìa rừng ấp Đường Bào, xã Dương Tơ."
+  },
+  {
+    "input": "Động cơ khiến nghi phạm chích điện 2 người ở Phú Quốc tấn công là gì?",
+    "expect_retrieve": "thừa nhận đã chích điện 2 người do ghen tuông.",
+    "expect_response": "Do ghen tuông."
+  },
+  {
+    "input": "Lúc gây án ở sân bóng Phú Quốc, Hòa đã ngụy trang như thế nào?",
+    "expect_retrieve": "Hòa ngụy trang bằng cách đội tóc giả, mặc quần áo phụ nữ",
+    "expect_response": "Đội tóc giả và mặc đồ phụ nữ."
+  },
+  {
+    "input": "Ông Lưu bị tố sống chung như vợ chồng với người khác từ khi nào?",
+    "expect_retrieve": "đã sống chung với một phụ nữ khác từ cách đây vài năm",
+    "expect_response": "Từ vài năm trước (khoảng từ 2015 theo hồ sơ)."
+  },
+  {
+    "input": "Trong hồ sơ thuê biệt thự, ông Lưu và người phụ nữ họ Hồ đăng ký dưới danh nghĩa gì?",
+    "expect_retrieve": "đăng ký thuê biệt thự dưới danh nghĩa vợ chồng",
+    "expect_response": "Dưới danh nghĩa vợ chồng."
+  },
+  {
+    "input": "Tài xế xe buýt ở Nghệ An bị xử phạt bao nhiêu vì mở cửa đẩy vào xe máy?",
+    "expect_retrieve": "đã xử phạt tài xế Luân 5 triệu đồng về hành vi mở cửa xe không đảm bảo an toàn",
+    "expect_response": "5 triệu đồng."
+  },
+  {
+    "input": "Ca sĩ Duy Mạnh đã làm gì với đơn kiện Mercedes Việt Nam?",
+    "expect_retrieve": "đã rút đơn khởi kiện Mercedes Việt Nam đòi bồi thường 2,5 tỷ đồng",
+    "expect_response": "Anh đã rút đơn kiện."
+  },
+  {
+    "input": "Kết quả giám định nguyên nhân cháy xe Mercedes của Duy Mạnh nói gì?",
+    "expect_retrieve": "trên đường dây điện lắp đặt phía sau động cơ xe đã xảy ra sự cố va chạm chập điện ngắn mạch...",
+    "expect_response": "Giám định nêu sự cố chập điện ngắn mạch trên dây điện phía sau động cơ."
+  },
+  {
+    "input": "Sau sự cố, bảo hiểm đã bồi thường cho Duy Mạnh khoảng bao nhiêu?",
+    "expect_retrieve": "Sau khi xảy ra sự cố, ca sĩ được công ty bảo hiểm bồi thường gần 2,9 tỷ đồng.",
+    "expect_response": "Gần 2,9 tỷ đồng."
+  },
+  {
+    "input": "Nghi phạm phóng hỏa phòng trọ ở TP Thủ Đức đã mang theo bao nhiêu xăng?",
+    "expect_retrieve": "Trung mang theo 2 bình nhựa đầy xăng (7 lít)",
+    "expect_response": "Khoảng 7 lít xăng trong 2 bình nhựa."
+  },
+  {
+    "input": "Vụ phóng hỏa phòng trọ ở TP HCM khiến bao nhiêu người thiệt mạng?",
+    "expect_retrieve": "khiến 3 người chết.",
+    "expect_response": "Ba người thiệt mạng."
+  },
+  {
+    "input": "Cô gái ở Đà Nẵng bị lừa bao nhiêu tiền khi hợp tác \"mua iPhone trả góp\"?",
+    "expect_retrieve": "chị Ly (23 tuổi) đến Công an TP Đà Nẵng trình báo bị lừa gần 122 triệu đồng",
+    "expect_response": "Gần 122 triệu đồng."
+  },
+  {
+    "input": "Nhóm của Khang đã chiếm đoạt tổng cộng khoảng bao nhiêu tiền trên cả nước?",
+    "expect_retrieve": "thực hiện hàng chục vụ lừa đảo trên khắp cả nước, chiếm đoạt tổng số tiền hơn 2 tỷ đồng.",
+    "expect_response": "Hơn 2 tỷ đồng."
+  },
+  {
+    "input": "Khu đất của Vinafood II tại 132 Bến Vân Đồn có diện tích bao nhiêu?",
+    "expect_retrieve": "khu đất 7.890 m2 tại địa chỉ 132 Bến Vân Đồn, quận 4.",
+    "expect_response": "Khoảng 7.890 m2."
+  },
+  {
+    "input": "Thiệt hại Nhà nước trong vụ Vinafood II được xác định là bao nhiêu?",
+    "expect_retrieve": "Hành vi của các bị can gây thiệt hại cho nhà nước hơn 113 tỷ đồng.",
+    "expect_response": "Hơn 113 tỷ đồng."
+  },
+  {
+    "input": "Người bị so sánh với Darth Vader được bồi thường khoảng bao nhiêu?",
+    "expect_retrieve": "Cuối cùng, Lorna Rooke thắng kiện công ty và được bồi thường 30.000 bảng (40.000 USD).",
+    "expect_response": "Khoảng 30.000 bảng, tương đương 40.000 USD."
+  },
+  {
+    "input": "Đường dây do Duy Anh cầm đầu đã mua bán tổng cộng bao nhiêu kg ma túy?",
+    "expect_retrieve": "Cơ quan công tố xác định, Duy đã mua bán trái phép tổng cộng 28 kg ma túy các loại",
+    "expect_response": "Khoảng 28 kg ma túy."
+  },
+  {
+    "input": "Duy bị bắt quả tang đang phân chia ma túy ở đâu?",
+    "expect_retrieve": "tại một nhà nghỉ tại huyện Đức Hòa, tỉnh Long An.",
+    "expect_response": "Ở một nhà nghỉ tại huyện Đức Hòa, Long An."
+  },
+  {
+    "input": "Hoa khôi Lý Tư Huyên bị tuyên án bao nhiêu tháng tù vì gian lận học vấn?",
+    "expect_retrieve": "bị tòa án quận Sa Điền tuyên 8 tháng tù",
+    "expect_response": "8 tháng tù."
+  },
+  {
+    "input": "Lý Tư Huyên đã chi khoảng bao nhiêu tiền cho công ty môi giới để làm giả hồ sơ?",
+    "expect_retrieve": "cô trả 380.000 nhân dân tệ (khoảng 1,3 tỷ đồng) cho công ty môi giới",
+    "expect_response": "Khoảng 380.000 nhân dân tệ."
+  },
+  {
+    "input": "Sau hơn một năm lẩn trốn, Thượng đầu thú trong vụ bắn nhầm người khi đang ở đâu trước đó?",
+    "expect_retrieve": "Thượng đến công an đầu thú sau hơn một năm gây ra án mạng, lẩn trốn ở Campuchia.",
+    "expect_response": "Anh ta trước đó lẩn trốn ở Campuchia."
+  },
+  {
+    "input": "Nạn nhân thiệt mạng trong vụ bắn nhầm ở An Giang bao nhiêu tuổi?",
+    "expect_retrieve": "sát hại thiếu niên 17 tuổi.",
+    "expect_response": "Khoảng 17 tuổi."
+  },
+  {
+    "input": "Nguyễn Vũ Bằng đã huy động khoảng bao nhiêu đàn em ra biển truy sát?",
+    "expect_retrieve": "Bằng huy động khoảng 30 đàn em chạy vỏ lãi ra biển thuộc huyện An Minh để truy sát nhóm Mãi.",
+    "expect_response": "Khoảng 30 người."
+  },
+  {
+    "input": "Trong vụ hỗn chiến trên biển, Bằng đã làm chìm phương tiện của ai?",
+    "expect_retrieve": "tông chìm phương tiện do đàn em của Mãi lái.",
+    "expect_response": "Phương tiện do đàn em của nhóm đối thủ (nhóm Mãi) điều khiển."
+  },
+  {
+    "input": "Vì sao vụ 30 giang hồ truy sát nhau trên biển được lật lại điều tra?",
+    "expect_retrieve": "Gần đây, Công an tỉnh Kiên Giang liên tục triệt phá các băng nhóm bảo kê ngư trường đặc biệt ở vùng biển An Minh nên vụ việc được lật lại.",
+    "expect_response": "Do công an triệt phá nhiều băng nhóm bảo kê ngư trường nên vụ việc được lật lại."
+  },
+  {
+    "input": "Trong bài trắc nghiệm, nữ giáo viên ở Mỹ trước đây được vinh danh ra sao?",
+    "expect_retrieve": "Jacqueline từng nhận danh hiệu \"Giáo viên của năm\"",
+    "expect_response": "Cô từng được vinh danh là \"Giáo viên của năm\"."
+  },
+  {
+    "input": "Vào tháng 6/2020, ông Tuấn đã chỉ đạo cấp dưới thế nào liên quan Thuận An?",
+    "expect_retrieve": "Tháng 6/2020, ông Tuấn hai lần nhắc nhở cấp dưới lưu ý, quan tâm cho Thuận An tham gia thi công dự án cầu Vĩnh Tuy 2.",
+    "expect_response": "Ông hai lần nhắc cấp dưới lưu ý, tạo điều kiện cho Thuận An tham gia."
+  },
+  {
+    "input": "Ông Phạm Thái Hà bị đề nghị truy tố về tội danh gì trong vụ cầu Đồng Việt?",
+    "expect_retrieve": "C03 đề nghị truy tố tộiLợi dụng chức vụ, quyền hạn gây ảnh hưởng đối với người khác để trục lợi.",
+    "expect_response": "Tội lợi dụng chức vụ, quyền hạn gây ảnh hưởng đối với người khác để trục lợi."
+  },
+  {
+    "input": "Nhóm của Khang đã tiếp cận nạn nhân bằng chiêu trò gì khi lừa \"mua iPhone trả góp\"?",
+    "expect_retrieve": "giả nhân viên hỗ trợ tài chính và mời Ly hợp tác mua đơn hàng iPhone trả góp online để nhận hoa hồng.",
+    "expect_response": "Giả làm nhân viên hỗ trợ tài chính, rủ hợp tác mua đơn iPhone trả góp để nhận hoa hồng."
+  },
+  {
+    "input": "Trong vụ đất hiếm Yên Bái, công ty đã bán tinh quặng sắt đi đâu trái quy định?",
+    "expect_retrieve": "Công ty cũng bán tinh quặng sắt sang Trung Quốc, dù quy định phải bán cho các cơ sở luyện gang thép trong nước.",
+    "expect_response": "Bán sang Trung Quốc thay vì bán cho cơ sở trong nước."
+  },
+  {
+    "input": "Sau khi chém người ở Đà Lạt, nhóm nghi phạm bị bắt trên phương tiện gì?",
+    "expect_retrieve": "các trinh sát ... dừng xe khách khả nghi, phát hiện 4 thanh niên có vẻ ngoài giống các nghi phạm.",
+    "expect_response": "Bị chặn và bắt trên xe khách."
+  }
+  ,
+  {
+    "input": "Luật Đất đai 2024 điều chỉnh những vấn đề gì?",
+    "expect_retrieve": "khoản Luật này quy định về chế độ sở hữu đất đai, quyền hạn và trách nhiệm của Nhà nước đại diện chủ sở hữu toàn dân về đất đai và thống nhất quản lý về đất đai, chế độ quản lý và sử dụng đất đai, quyền và nghĩa vụ của công dân, người sử dụng đất đối với đất đai thuộc lãnh thổ của nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n",
+    "expect_response": "Luật quy định về sở hữu đất đai, quản lý, sử dụng đất, và quyền/nghĩa vụ của người sử dụng đất trên lãnh thổ Việt Nam."
+  },
+  {
+    "input": "Những cơ quan nào thuộc đối tượng áp dụng của Luật Đất đai?",
+    "expect_retrieve": "khoản 1. Cơ quan nhà nước thực hiện quyền hạn và trách nhiệm đại diện chủ sở hữu toàn dân về đất đai, thực hiện nhiệm vụ thống nhất quản lý nhà nước về đất đai.\n",
+    "expect_response": "Cơ quan nhà nước thực hiện quyền đại diện chủ sở hữu toàn dân và quản lý nhà nước về đất đai."
+  },
+  {
+    "input": "\"Bản đồ địa chính\" được hiểu là gì theo Luật Đất đai?",
+    "expect_retrieve": "khoản 1.Bản đồ địa chínhlà bản đồ thể hiện các thửa đất và các đối tượng địa lý có liên quan, lập theo đơn vị hành chính cấp xã hoặc theo đơn vị hành chính cấp huyện nơi không thành lập đơn vị hành chính cấp xã, được cơ quan nhà nước có thẩm quyền xác nhận.\n",
+    "expect_response": "Là bản đồ thể hiện thửa đất và đối tượng liên quan theo đơn vị hành chính, được cơ quan có thẩm quyền xác nhận."
+  },
+  {
+    "input": "\"Bản đồ quy hoạch sử dụng đất\" là gì?",
+    "expect_retrieve": "khoản 3.Bản đồ quy hoạch sử dụng đấtlà bản đồ được lập tại thời điểm đầu kỳ quy hoạch, thể hiện nội dung phân bố các loại đất tại thời điểm cuối kỳ quy hoạch của quy hoạch đó.\n",
+    "expect_response": "Là bản đồ lập đầu kỳ, thể hiện phân bố các loại đất ở thời điểm cuối kỳ quy hoạch."
+  },
+  {
+    "input": "\"Bồi thường về đất\" được định nghĩa thế nào?",
+    "expect_retrieve": "khoản 5.Bồi thường về đấtlà việc Nhà nước trả lại giá trị quyền sử dụng đất của diện tích đất thu hồi cho người có đất thu hồi.\n",
+    "expect_response": "Là việc Nhà nước trả lại giá trị quyền sử dụng đất cho người có đất bị thu hồi."
+  },
+  {
+    "input": "\"Giá đất\" theo Luật Đất đai là gì?",
+    "expect_retrieve": "khoản 19.Giá đấtlà giá trị của quyền sử dụng đất tính bằng tiền trên một đơn vị diện tích đất.\n",
+    "expect_response": "Là giá trị bằng tiền của quyền sử dụng đất trên một đơn vị diện tích."
+  },
+  {
+    "input": "\"Giá trị quyền sử dụng đất\" hiểu thế nào?",
+    "expect_retrieve": "khoản 20.Giá trị quyền sử dụng đấtlà giá trị bằng tiền của quyền sử dụng đất đối với một diện tích đất, loại đất tại thời điểm được xác định với thời hạn sử dụng đã được xác định.\n",
+    "expect_response": "Là giá trị bằng tiền của quyền sử dụng đất cho diện tích/loại đất tại thời điểm xác định, với thời hạn sử dụng xác định."
+  },
+  {
+    "input": "Giấy chứng nhận quyền sử dụng đất và tài sản gắn liền với đất là gì?",
+    "expect_retrieve": "khoản 21.Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đấtlà chứng thư pháp lý để Nhà nước xác nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hợp pháp của người có quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất. Tài sản gắn liền với đất được cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất là nhà ở, công trình xây dựng gắn liền với đất theo quy định của pháp luật. Giấy chứng nhận về quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất theo quy định của các luật có liên quan được thực hiện theo quy định của Luật này có giá trị pháp lý tương đương như Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất tại Luật này.\n",
+    "expect_response": "Là chứng thư pháp lý xác nhận quyền sử dụng đất và quyền sở hữu tài sản gắn liền với đất hợp pháp của người sử dụng."
+  },
+  {
+    "input": "Góp vốn bằng quyền sử dụng đất được hiểu thế nào?",
+    "expect_retrieve": "khoản 22.Góp vốn bằng quyền sử dụng đấtlà sự thỏa thuận giữa các bên về chuyển quyền sử dụng đất thông qua việc góp quyền sử dụng đất để tạo thành vốn điều lệ của tổ chức kinh tế, bao gồm góp vốn để thành lập tổ chức kinh tế hoặc góp thêm vốn điều lệ của tổ chức kinh tế đã được thành lập.\n",
+    "expect_response": "Là việc chuyển quyền sử dụng đất để góp vốn hình thành hoặc tăng vốn điều lệ của tổ chức kinh tế."
+  },
+  {
+    "input": "Cơ sở dữ liệu quốc gia về đất đai là gì?",
+    "expect_retrieve": "khoản 14.Cơ sở dữ liệu quốc gia về đất đailà tập hợp các cơ sở dữ liệu đất đai trong đó dữ liệu được sắp xếp, tổ chức để truy cập, khai thác, chia sẻ, quản lý và cập nhật thông qua phương tiện điện tử.\n",
+    "expect_response": "Là tập hợp dữ liệu đất đai được tổ chức để truy cập, khai thác, chia sẻ và quản lý qua phương tiện điện tử."
+  },
+  {
+    "input": "\"Nhà nước thu hồi đất\" theo định nghĩa của luật là gì?",
+    "expect_retrieve": "khoản 35.Nhà nước thu hồi đấtlà việc cơ quan nhà nước có thẩm quyền ban hành quyết định thu lại quyền sử dụng đất của người sử dụng đất hoặc thu lại đất của người đang sử dụng đất hoặc thu lại đất đang được Nhà nước giao quản lý.\n",
+    "expect_response": "Là việc cơ quan có thẩm quyền quyết định thu lại quyền sử dụng đất/đất đang sử dụng hoặc đang được Nhà nước giao quản lý."
+  },
+  {
+    "input": "Quy hoạch sử dụng đất là gì?",
+    "expect_retrieve": "khoản 36.Quy hoạch sử dụng đấtlà việc phân bổ chỉ tiêu sử dụng đất và khoanh vùng đất đai cho các mục đích phát triển kinh tế - xã hội, quốc phòng, an ninh, bảo vệ môi trường và thích ứng với biến đổi khí hậu trên cơ sở tiềm năng đất đai và nhu cầu sử dụng đất của các ngành, lĩnh vực đối với từng đơn vị hành chính cho thời kỳ xác định.\n",
+    "expect_response": "Là việc phân bổ chỉ tiêu và khoanh vùng đất cho các mục đích phát triển, môi trường, quốc phòng… theo từng đơn vị hành chính."
+  },
+  {
+    "input": "Thế nào là \"sử dụng đất ổn định\"?",
+    "expect_retrieve": "khoản 38.Sử dụng đất ổn địnhlà việc sử dụng đất vào một mục đích chính nhất định kể từ thời điểm bắt đầu sử dụng đất vào mục đích đó đến thời điểm cơ quan nhà nước có thẩm quyền xem xét việc sử dụng đất ổn định.\n",
+    "expect_response": "Là sử dụng đất vào một mục đích chính liên tục từ khi bắt đầu đến khi cơ quan có thẩm quyền xem xét."
+  },
+  {
+    "input": "\"Tái định cư\" được hiểu như thế nào trong Luật Đất đai?",
+    "expect_retrieve": "khoản 39.Tái định cưlà việc Nhà nước thực hiện bồi thường bằng đất ở hoặc bằng nhà ở tại khu tái định cư hoặc địa điểm khác phù hợp cho người có đất thu hồi hoặc hỗ trợ bằng giao đất ở, nhà ở tái định cư cho người không đủ điều kiện bồi thường về đất ở theo quy định của Luật này nhưng không còn chỗ ở nào khác.\n",
+    "expect_response": "Là việc Nhà nước bố trí đất/nhà ở hoặc hỗ trợ tái định cư cho người có đất bị thu hồi theo quy định."
+  },
+  {
+    "input": "\"Thửa đất\" là gì?",
+    "expect_retrieve": "khoản 42.Thửa đấtlà phần diện tích đất được giới hạn bởi ranh giới mô tả trên hồ sơ địa chính hoặc được xác định trên thực địa.\n",
+    "expect_response": "Là phần diện tích đất có ranh giới xác định trên hồ sơ địa chính hoặc thực địa."
+  },
+  {
+    "input": "\"Tiền sử dụng đất\" là khoản gì?",
+    "expect_retrieve": "khoản 44.Tiền sử dụng đấtlà số tiền mà người sử dụng đất phải trả cho Nhà nước khi được Nhà nước giao đất có thu tiền sử dụng đất,cho phép chuyển mục đích sử dụng đất hoặc các trường hợp sử dụng đất mà phải nộp tiền sử dụng đất theo quy định của pháp luật.\n",
+    "expect_response": "Là số tiền phải nộp khi được giao đất có thu tiền, chuyển mục đích sử dụng, hoặc trường hợp phải nộp theo luật."
+  },
+  {
+    "input": "\"Tiền thuê đất\" là gì?",
+    "expect_retrieve": "khoản 45.Tiền thuê đấtlà số tiền mà người sử dụng đất phải trả cho Nhà nước khi được Nhà nước cho thuê đất, cho phép chuyển mục đích sử dụng đất để cho thuê đất hoặc các trường hợp sử dụng đất mà phải nộp tiền thuê đất theo quy định của pháp luật.\n",
+    "expect_response": "Là số tiền phải trả khi được Nhà nước cho thuê đất hoặc thuộc trường hợp phải nộp tiền thuê đất."
+  },
+  {
+    "input": "Một nguyên tắc cơ bản khi sử dụng đất là gì?",
+    "expect_retrieve": "khoản 1. Đúng mục đích sử dụng đất.\n",
+    "expect_response": "Phải sử dụng đất đúng mục đích."
+  },
+  {
+    "input": "Ai được coi là \"người sử dụng đất\" theo Luật Đất đai?",
+    "expect_retrieve": "khoản Người sử dụng đất được Nhà nước giao đất, cho thuê đất, công nhận quyền sử dụng đất; đang sử dụng đất ổn định, đủ điều kiện cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà chưa được Nhà nước cấp Giấy chứng nhận quyền sử dụng đất, Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất, Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; nhận quyền sử dụng đất; thuê lại đất theo quy định của Luật này, bao gồm:\n",
+    "expect_response": "Là tổ chức/cá nhân được giao, cho thuê, công nhận QSDĐ; đang sử dụng ổn định đủ điều kiện cấp giấy; nhận chuyển quyền; thuê lại đất..."
+  },
+  {
+    "input": "Một hành vi bị nghiêm cấm trong lĩnh vực đất đai là gì?",
+    "expect_retrieve": "khoản 1.Lấn đất, chiếm đất, hủy hoại đất.\n",
+    "expect_response": "Lấn chiếm, hủy hoại đất là hành vi bị cấm."
+  },
+  {
+    "input": "Ai có thẩm quyền quyết định thu hồi đất theo quy định?",
+    "expect_retrieve": "khoản 5. Quyết định thu hồi đất.\n",
+    "expect_response": "Nhà nước (theo thẩm quyền) có quyền quyết định thu hồi đất."
+  },
+  {
+    "input": "Ở Việt Nam, đất đai thuộc sở hữu của ai?",
+    "expect_retrieve": "khoản Đất đai thuộc sở hữu toàn dân do Nhà nước đại diện chủ sở hữuvà thống nhất quản lý. Nhà nước trao quyền sử dụng đất cho người sử dụng đất theo quy định của Luật này.\n",
+    "expect_response": "Đất đai thuộc sở hữu toàn dân, Nhà nước đại diện chủ sở hữu và trao quyền sử dụng cho người dân theo luật."
+  },
+  {
+    "input": "Nhà nước có trách nhiệm gì về cấp giấy chứng nhận cho người sử dụng đất?",
+    "expect_retrieve": "khoản 2. Cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất cho người sử dụng đất khi có đủ điều kiện theo quy định của pháp luậtvề đất đai.\n",
+    "expect_response": "Phải cấp giấy chứng nhận QSDĐ, quyền sở hữu tài sản gắn liền khi người sử dụng đất đủ điều kiện theo luật."
+  },
+  {
+    "input": "Một chính sách hỗ trợ đất đai cho cá nhân là người dân tộc thiểu số là gì?",
+    "expect_retrieve": "mục a) Giao đất ở trong hạn mức và được miễn, giảm tiền sử dụng đất;\n",
+    "expect_response": "Giao đất ở trong hạn mức và miễn/giảm tiền sử dụng đất."
+  },
+  {
+    "input": "Nhà nước có bảo hộ quyền sử dụng đất hợp pháp của người dân không?",
+    "expect_retrieve": "khoản 1. Nhà nước bảo hộ quyền sử dụng đất và tài sản gắn liền với đất hợp pháp của người sử dụng đất.\n",
+    "expect_response": "Có, Nhà nước bảo hộ quyền sử dụng đất và tài sản hợp pháp gắn liền với đất."
+  },
+  {
+    "input": "Công dân được tiếp cận nội dung quy hoạch, kế hoạch sử dụng đất không?",
+    "expect_retrieve": "mục a)Quy hoạch, kế hoạch sử dụng đất, các quy hoạch có liên quan đến sử dụng đất đã được cơ quan nhà nước có thẩm quyền quyết định, phê duyệt;\n",
+    "expect_response": "Có. Công dân được tiếp cận quy hoạch, kế hoạch sử dụng đất đã được phê duyệt."
+  },
+  {
+    "input": "Một nghĩa vụ cơ bản của công dân đối với đất đai là gì?",
+    "expect_retrieve": "khoản 1. Chấp hành đúng các quy định của pháp luật về đất đai.\n",
+    "expect_response": "Phải chấp hành đúng các quy định pháp luật về đất đai."
+  },
+  {
+    "input": "Người sử dụng đất có quyền được cấp giấy chứng nhận không?",
+    "expect_retrieve": "khoản 1. Được cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đấtkhi có đủ điều kiện theo quy định của pháp luật về đất đai.\n",
+    "expect_response": "Có, khi đủ điều kiện theo quy định."
+  },
+  {
+    "input": "Người sử dụng đất có được chuyển mục đích sử dụng đất?",
+    "expect_retrieve": "khoản 6. Được quyền chuyển mục đích sử dụng đất theo quy định của Luật này và quy định khác của pháp luậtcó liên quan.\n",
+    "expect_response": "Có, theo quy định của Luật Đất đai và pháp luật liên quan."
+  },
+  {
+    "input": "Khi Nhà nước thu hồi đất, người sử dụng đất được hưởng gì?",
+    "expect_retrieve": "khoản 7. Được bồi thường, hỗ trợ, tái định cưkhi Nhà nước thu hồi đất theo quy định của Luật này.\n",
+    "expect_response": "Được bồi thường, hỗ trợ và tái định cư theo quy định."
+  },
+  {
+    "input": "Người sử dụng đất có thể chuyển nhượng, cho thuê, thế chấp, góp vốn bằng QSDĐ không?",
+    "expect_retrieve": "khoản 1. Người sử dụng đất được thực hiện các quyền chuyển đổi, chuyển nhượng, cho thuê, cho thuê lại, thừa kế, tặng cho quyền sử dụng đất; thế chấp, góp vốn bằng quyền sử dụng đất theo quy định của Luật này và luật khác có liên quan.\n",
+    "expect_response": "Có, người sử dụng đất được thực hiện các quyền đó theo quy định của luật."
+  },
+  {
+    "input": "Nhóm người sử dụng đất muốn thực hiện quyền với phần của mình thì cần thủ tục gì?",
+    "expect_retrieve": "khoản Trường hợp trong nhóm người sử dụng đất có thành viên là tổ chức kinh tế thì có quyền và nghĩa vụ như quyền và nghĩa vụ của tổ chức kinh tế theo quy định của Luật này;\nmục b) Trường hợp nhóm người sử dụng đất mà quyền sử dụng đất phân chia được theo phần cho từng thành viên trong nhóm, nếu từng thành viên của nhóm muốn thực hiện quyền đối với phần quyền sử dụng đất của mình thì phải thực hiện đăng ký biến động hoặc tách thửa theo quy định, làm thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và được thực hiện quyền và nghĩa vụ của người sử dụng đất theo quy định của Luật này.\n",
+    "expect_response": "Phải đăng ký biến động hoặc tách thửa và làm thủ tục cấp giấy chứng nhận cho phần quyền của mình."
+  },
+  {
+    "input": "Hợp đồng chuyển nhượng, tặng cho QSDĐ có bắt buộc công chứng/chứng thực không?",
+    "expect_retrieve": "mục a) Hợp đồng chuyển nhượng, tặng cho, thế chấp, góp vốn bằng quyền sử dụng đất, quyền sử dụng đất và tài sản gắn liền với đất phải được công chứng hoặc chứng thực, trừ trường hợp quy định tại điểm b khoản này;\n",
+    "expect_response": "Có, phải được công chứng hoặc chứng thực (trừ các trường hợp ngoại lệ theo luật)."
+  },
+  {
+    "input": "Tổ chức kinh tế có vốn đầu tư nước ngoài, người gốc Việt Nam ở nước ngoài có được nhận chuyển nhượng đất trong KCN không?",
+    "expect_retrieve": "mục c) Tổ chức kinh tế có vốn đầu tư nước ngoài, người gốc Việt Nam định cư ở nước ngoài được phép nhập cảnh vào Việt Nam được nhận chuyển nhượng quyền sử dụng đất trong khu công nghiệp, cụm công nghiệp, khu công nghệ cao;\n",
+    "expect_response": "Có, nếu được phép nhập cảnh thì được nhận chuyển nhượng QSDĐ trong KCN, cụm CN, khu CNC."
+  },
+  {
+    "input": "Quyền đối với thửa đất liền kề bao gồm những gì?",
+    "expect_retrieve": "khoản 1. Quyền đối với thửa đất liền kề bao gồm quyền về lối đi; cấp nước, thoát nước; tưới nước, tiêu nước trong canh tác; cấp khí ga; lắp đường dây tải điện, thông tin liên lạc và các nhu cầu cần thiết kháctheo quy định của pháp luật.\n",
+    "expect_response": "Bao gồm quyền lối đi, cấp/thoát nước, tưới/tiêu nước, cấp khí ga, lắp điện, thông tin liên lạc và nhu cầu cần thiết khác."
+  },
+  {
+    "input": "Đang thuê đất trả tiền hằng năm có được chuyển sang trả tiền một lần không?",
+    "expect_retrieve": "khoản 1. Tổ chức kinh tế, đơn vị sự nghiệp công lập, cá nhân, người gốc Việt Nam định cư ở nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đang được Nhà nước cho thuê đất thu tiền thuê đất hằng năm nhưng thuộc trường hợp được Nhà nước cho thuê đất thu tiền thuê đất một lần cho cả thời gian thuê theo quy định của Luật này được lựa chọn chuyển sang thuê đất trả tiền thuê đất một lần cho thời gian thuê đất còn lại và phải xác định lại giá đất để tính tiền thuê đất tại thời điểm có quyết định cho phép chuyển sang thuê đất theo hình thức trả tiền thuê đất một lần cho cả thời gian thuê theo quy định của Luật này.\n",
+    "expect_response": "Được, nếu thuộc trường hợp pháp luật cho phép thì có thể chuyển sang trả tiền một lần và xác định lại giá đất."
+  },
+  {
+    "input": "Một nghĩa vụ chung của người sử dụng đất là gì?",
+    "expect_retrieve": "khoản 1. Sử dụng đất đúng mục đích, đúng ranh giới thửa đất, đúng quy định về sử dụng độ sâu trong lòng đất và chiều cao trên không, bảo vệ các công trình công cộng trong lòng đất và tuân thủ quy định khác của pháp luật có liên quan.\n",
+    "expect_response": "Phải sử dụng đất đúng mục đích, ranh giới và tuân thủ quy định liên quan."
+  },
+  {
+    "input": "Khi có quyết định thu hồi, người sử dụng đất phải làm gì?",
+    "expect_retrieve": "khoản 7.Bàngiao lại đất khi Nhà nước có quyết định thu hồi đất theo quy định của pháp luật.\n",
+    "expect_response": "Phải bàn giao lại đất theo quyết định thu hồi."
+  },
+  {
+    "input": "Tổ chức được giao đất không thu tiền có được chuyển nhượng hay thế chấp QSDĐ không?",
+    "expect_retrieve": "khoản 2. Tổ chức trong nước, tổ chức tôn giáo, tổ chức tôn giáo trực thuộc được Nhà nước giao đất không thu tiền sử dụng đất không có quyền chuyển đổi, chuyển nhượng, tặng cho, cho thuê quyền sử dụng đất, thế chấp, góp vốn bằng quyền sử dụng đất.\n",
+    "expect_response": "Không, các quyền chuyển đổi/nhượng, cho thuê, thế chấp, góp vốn bằng QSDĐ không được phép."
+  },
+  {
+    "input": "Tổ chức được giao đất có thu tiền có thể thế chấp QSDĐ ở đâu?",
+    "expect_retrieve": "mục đ) Thế chấp quyền sử dụng đất, tài sản thuộc sở hữu của mình gắn liền với đất tại các tổ chức tín dụng được phép hoạt động tại Việt Nam, tại tổ chức kinh tế khác hoặc cá nhân theo quy định của pháp luật;\n",
+    "expect_response": "Tại tổ chức tín dụng hoạt động hợp pháp ở Việt Nam, tổ chức kinh tế khác hoặc cá nhân theo luật."
+  },
+  {
+    "input": "Đang thuê đất trả tiền hằng năm, tổ chức có được bán tài sản gắn liền với đất và quyền thuê không?",
+    "expect_retrieve": "mục c) Bán tài sản thuộc sở hữu của mình gắn liền với đất, bán tài sản thuộc sở hữu của mình gắn liền với đất và quyền thuê trong hợp đồng thuê đất khi đáp ứng điều kiện quy định tạiĐiều 46 của Luật này. Người muatài sản gắn liền với đất và quyền thuê trong hợp đồng thuê đất được tiếp tục thuê đất theo mục đích đã được xác định và thời hạn sử dụng đất còn lại, được kế thừa các quyền và nghĩa vụ của người sử dụng đất theo quy định của Luật này và quy định khác của pháp luật có liên quan;\n",
+    "expect_response": "Có, nếu đáp ứng điều kiện của Điều 46; người mua được tiếp tục thuê và kế thừa quyền, nghĩa vụ."
+  },
+  {
+    "input": "Cá nhân sử dụng đất nông nghiệp có quyền chuyển nhượng QSDĐ không?",
+    "expect_retrieve": "mục c) Chuyển nhượng quyền sử dụng đất, tài sản thuộc sở hữu của mình gắn liền với đất theo quy định của pháp luật;\n",
+    "expect_response": "Có, được chuyển nhượng theo quy định pháp luật."
+  },
+  {
+    "input": "Cá nhân được Nhà nước cho thuê đất hằng năm có được thế chấp tài sản gắn liền với đất không?",
+    "expect_retrieve": "mục đ) Thế chấp tài sản thuộc sở hữu của mình gắn liền với đất tại các tổ chức tín dụng được phép hoạt động tại Việt Nam, tại tổ chức kinh tế khác hoặc cá nhân theo quy định của pháp luật;\n",
+    "expect_response": "Được, có thể thế chấp tại tổ chức tín dụng, tổ chức kinh tế hoặc cá nhân theo quy định."
+  },
+  {
+    "input": "Cộng đồng dân cư sử dụng đất có quyền để thừa kế QSDĐ không?",
+    "expect_retrieve": "khoản 2. Cộng đồng dân cư sử dụng đất có quyền và nghĩa vụ như quyền và nghĩa vụ của cá nhân có hình thức sử dụng đất tương ứng, trừ quyền để thừa kế.\n",
+    "expect_response": "Không, cộng đồng dân cư không có quyền để thừa kế QSDĐ."
+  },
+  {
+    "input": "Người gốc Việt Nam định cư ở nước ngoài có được sở hữu nhà ở gắn liền với QSDĐ ở Việt Nam không?",
+    "expect_retrieve": "khoản 1. Người gốc Việt Nam định cư ở nước ngoài thì được sở hữu nhà ở gắn liền với quyền sử dụng đất ở tại Việt Nam; có quyền sử dụng đất ở do nhận chuyển quyền sử dụng đất ở trong các dự án phát triển nhà ở.\n",
+    "expect_response": "Có, họ được sở hữu nhà ở gắn liền với QSDĐ ở Việt Nam và có thể nhận chuyển QSDĐ ở trong dự án."
+  },
+  {
+    "input": "Để chuyển nhượng QSDĐ, người sử dụng đất cần giấy tờ gì?",
+    "expect_retrieve": "mục a) Có Giấy chứng nhận quyền sử dụng đất hoặc Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở hoặc Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất hoặc Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất, trừ trường hợp thừa kế quyền sử dụng đất, chuyển đổi đất nông nghiệp khi dồn điền, đổi thửa, tặng cho quyền sử dụng đất cho Nhà nước, cộng đồng dân cư và trường hợp quy định tạikhoản 7 Điều 124 và điểm a khoản 4 Điều 127 của Luật này;\n",
+    "expect_response": "Phải có Giấy chứng nhận QSDĐ (hoặc giấy tờ tương ứng), trừ các trường hợp ngoại lệ nêu trong luật."
+  },
+  {
+    "input": "Đất đang tranh chấp có được chuyển nhượng không?",
+    "expect_retrieve": "mục b) Đất không có tranh chấp hoặc tranh chấp đã được giải quyết bởi cơ quan nhà nước có thẩm quyền, bản án, quyết định của Tòa án, quyết định hoặc phán quyết của Trọng tài đã có hiệu lực pháp luật;\n",
+    "expect_response": "Không, chỉ khi đất không có tranh chấp hoặc tranh chấp đã được giải quyết dứt điểm mới được thực hiện quyền."
+  },
+  {
+    "input": "Muốn bán tài sản gắn liền với đất thuê trả tiền hằng năm cần điều kiện gì?",
+    "expect_retrieve": "khoản 1. Tổ chức kinh tế, cá nhân, người gốc Việt Nam định cư ở nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài được bán tài sản gắn liền với đất được Nhà nước cho thuê đất thu tiền thuê đất hằng năm khi có đủ các điều kiện sau đây:\nmục a) Tài sản gắn liền với đất thuê được tạo lập hợp pháp và đã được đăng ký theo quy định của pháp luật;\n",
+    "expect_response": "Tài sản phải tạo lập hợp pháp và đã đăng ký theo quy định (và đáp ứng các điều kiện khác của Điều 46)."
+  },
+  {
+    "input": "Chuyển đổi quyền sử dụng đất nông nghiệp giữa cá nhân có điều kiện gì đặc thù?",
+    "expect_retrieve": "khoản Cá nhân sử dụng đất nông nghiệp do được Nhà nước giao đất, do chuyển đổi, nhận chuyển nhượng, nhận thừa kế, nhận tặng cho quyền sử dụng đất hợp pháp từ người khác thì chỉ được chuyển đổi quyền sử dụng đất nông nghiệp trong cùng đơn vị hành chính cấp tỉnh cho cá nhân khác và không phải nộp thuế thu nhập từ việc chuyển đổi quyền sử dụng đất và lệ phí trước bạ.\n",
+    "expect_response": "Chỉ được chuyển đổi trong cùng cấp tỉnh và được miễn thuế TNCN, lệ phí trước bạ cho việc chuyển đổi."
+  },
+  {
+    "input": "Bản đồ địa chính dùng để làm gì trong quản lý đất đai?",
+    "expect_retrieve": "khoản 1. Bản đồ địa chính là cơ sở để phục vụ công tác quản lý nhà nước về đất đai và xây dựng cơ sở dữ liệu quốc gia về đất đai. Việc đo đạc lập bản đồ địa chính được thực hiện chi tiết đến từng thửa đất theo đơn vị hành chính cấp xã; nơi không thành lập đơn vị hành chính cấp xã thì được lập theo đơn vị hành chính cấp huyện.\n",
+    "expect_response": "Là cơ sở phục vụ quản lý nhà nước về đất đai và xây dựng CSDL quốc gia về đất đai, chi tiết đến từng thửa đất."
+  }
+]

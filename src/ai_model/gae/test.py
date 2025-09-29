@@ -5,7 +5,7 @@ from torch_geometric.data import Data
 from rapidfuzz import process  # For fuzzy matching
 from collections import deque
 from thuc_tap_co_so.src.ai_model.gae import GAE
-import google.generativeai as genai
+from groq import Groq
 import os
 from dotenv import load_dotenv
 import time
@@ -20,12 +20,12 @@ driver = GraphDatabase.driver(
     auth=(os.getenv('NEO4J_USERNAME'), os.getenv('NEO4J_PASSWORD'))
 )
 
-# Cấu hình Gemini
-genai.configure(api_key=os.getenv('API_KEY'))
-gemini_model = genai.GenerativeModel("gemini-1.5-flash")
+# Cấu hình Groq GPT-OSS
+groq_client = Groq(api_key=os.getenv('GROQ_API_KEY'))
+GROQ_MODEL = os.getenv('GROQ_MODEL', 'llama-3.1-70b-versatile')
 
 
-def extract_entities_and_relationships(text, model):
+def extract_entities_and_relationships(text):
     prompt = (
         f"Trích xuất các thực thể (nút) và mối quan hệ (cạnh) từ văn bản dưới đây."
         f"Các thực thể và mối quan hệ PHẢI được viết bằng tiếng Việt.\n"
@@ -41,8 +41,15 @@ def extract_entities_and_relationships(text, model):
 
     for _ in range(5):
         try:
-            response = model.generate_content(prompt)
-            return response.text
+            resp = groq_client.chat.completions.create(
+                model=GROQ_MODEL,
+                messages=[
+                    {"role": "system", "content": "Bạn là trợ lý AI, trích xuất thực thể/quan hệ tiếng Việt theo định dạng đã cho."},
+                    {"role": "user", "content": prompt},
+                ],
+                temperature=0.2,
+            )
+            return resp.choices[0].message.content
         except Exception as e:
             print(f"Lỗi: {e}")
             time.sleep(10)
@@ -141,7 +148,7 @@ def retrieve_information(query, k=20):
     with torch.no_grad():
         embeddings, _ = model(graph_data.x, graph_data.edge_index)
 
-    query_output = extract_entities_and_relationships(query, gemini_model)
+    query_output = extract_entities_and_relationships(query)
     entities, _ = process_llm_out(query_output)
 
     matches = find_closest_entities(entities, node_mapping)
